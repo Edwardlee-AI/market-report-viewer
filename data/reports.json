@@ -11,6 +11,10 @@
         "telegram": "content/posts/2026-04-12/telegram.md",
         "threads": "content/posts/2026-04-12/threads.md",
         "discord": "content/posts/2026-04-12/discord.md"
+      },
+      "charts": {
+        "README": "content/charts/2026-04-12/README.md",
+        "breadth-sector-leaderboard": "content/charts/2026-04-12/breadth-sector-leaderboard.png"
       }
     },
     {
@@ -19,7 +23,8 @@
       "reportPath": "content/reports/2026-04-12.auto.v1_2.md",
       "autoReportPath": null,
       "autoJsonPath": null,
-      "posts": {}
+      "posts": {},
+      "charts": {}
     }
   ]
 }

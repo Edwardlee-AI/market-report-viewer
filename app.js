@@ -96,6 +96,9 @@ function renderLinks(report) {
   for (const [key, path] of Object.entries(report.posts || {})) {
     links.push({ label: `${DOC_LABELS[key]} 原文`, path });
   }
+  for (const [key, path] of Object.entries(report.charts || {})) {
+    links.push({ label: `圖表 ${key}`, path });
+  }
   els.relatedLinks.innerHTML = '';
   links.forEach((item) => {
     const a = document.createElement('a');
