@@ -4,13 +4,22 @@
       "date": "2026-04-12",
       "title": "市場報告 2026-04-12",
       "reportPath": "content/reports/2026-04-12.md",
-      "autoReportPath": "content/reports/2026-04-12.auto.md",
-      "autoJsonPath": "content/reports/2026-04-12.auto.json",
+      "autoReportPath": "content/reports/2026-04-12.auto.v1_2.md",
+      "autoJsonPath": "content/reports/2026-04-12.auto.v1_2.json",
       "posts": {
+        "patreon": "content/posts/2026-04-12/patreon.md",
         "telegram": "content/posts/2026-04-12/telegram.md",
         "threads": "content/posts/2026-04-12/threads.md",
         "discord": "content/posts/2026-04-12/discord.md"
       }
+    },
+    {
+      "date": "2026-04-12.auto.v1_2",
+      "title": "市場報告 2026-04-12.auto.v1_2",
+      "reportPath": "content/reports/2026-04-12.auto.v1_2.md",
+      "autoReportPath": null,
+      "autoJsonPath": null,
+      "posts": {}
     }
   ]
 }

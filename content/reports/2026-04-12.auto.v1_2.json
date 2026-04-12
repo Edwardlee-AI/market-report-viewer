@@ -1,0 +1,1949 @@
+{
+  "date": "2026-04-12",
+  "watchlist": [
+    "0700.HK",
+    "9988.HK",
+    "3690.HK",
+    "1810.HK",
+    "600519.SS",
+    "000333.SZ"
+  ],
+  "hk_market": {
+    "summary": {
+      "latest": "2026-04-10",
+      "week_dates": [
+        "2026-04-01",
+        "2026-04-02",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10"
+      ],
+      "universe_symbols": 1278,
+      "liquid_symbols_ge1": 1080,
+      "advancers": 807,
+      "decliners": 402,
+      "flat": 69,
+      "median_return": 1.39,
+      "mean_return": 2.08,
+      "gt5": 289,
+      "gt10": 102,
+      "ltm5": 105,
+      "ltm10": 25
+    },
+    "top_gainers_all": [
+      {
+        "symbol": "08321.HK",
+        "name": "Tai Kam Holdings Limited",
+        "sector": "Industrial Services",
+        "industry": "Engineering & Construction",
+        "weekly_return_pct": 55.63,
+        "weekly_amount_b": 0.0,
+        "end_close": 2.21
+      },
+      {
+        "symbol": "03317.HK",
+        "name": "Shenzhen Xunce Technology Co., Ltd. Class H",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 52.56,
+        "weekly_amount_b": 9.71,
+        "end_close": 310.0
+      },
+      {
+        "symbol": "01643.HK",
+        "name": "Modern Chinese Medicine Group Co. Ltd.",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 50.25,
+        "weekly_amount_b": 0.03,
+        "end_close": 3.02
+      },
+      {
+        "symbol": "01384.HK",
+        "name": "Deepexi Technology Co Ltd Class H",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 48.67,
+        "weekly_amount_b": 3.8,
+        "end_close": 44.6
+      },
+      {
+        "symbol": "02650.HK",
+        "name": "Shanghai Zhida Technology Development Co., Ltd. Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Auto Parts: OEM",
+        "weekly_return_pct": 40.3,
+        "weekly_amount_b": 0.23,
+        "end_close": 38.02
+      },
+      {
+        "symbol": "09903.HK",
+        "name": "Shanghai Iluvatar CoreX Semiconductor Co., Ltd. Class H",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 35.92,
+        "weekly_amount_b": 1.88,
+        "end_close": 314.8
+      },
+      {
+        "symbol": "01788.HK",
+        "name": "Guotai Junan International Holdings Limited",
+        "sector": "Finance",
+        "industry": "Investment Managers",
+        "weekly_return_pct": 32.05,
+        "weekly_amount_b": 6.01,
+        "end_close": 3.09
+      },
+      {
+        "symbol": "06978.HK",
+        "name": "Immunotech Biopharm Ltd",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 27.74,
+        "weekly_amount_b": 0.02,
+        "end_close": 3.5
+      },
+      {
+        "symbol": "02205.HK",
+        "name": "Kangqiao Service Group Limited",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 25.49,
+        "weekly_amount_b": 0.0,
+        "end_close": 1.28
+      },
+      {
+        "symbol": "00951.HK",
+        "name": "Chaowei Power Holdings Ltd.",
+        "sector": "Producer Manufacturing",
+        "industry": "Auto Parts: OEM",
+        "weekly_return_pct": 24.82,
+        "weekly_amount_b": 0.05,
+        "end_close": 1.76
+      },
+      {
+        "symbol": "06609.HK",
+        "name": "Shanghai Heartcare Medical Technology Corp. Ltd. Class H",
+        "sector": "Health Technology",
+        "industry": "Medical Specialties",
+        "weekly_return_pct": 22.76,
+        "weekly_amount_b": 0.05,
+        "end_close": 59.0
+      },
+      {
+        "symbol": "09876.HK",
+        "name": "Ocean One Holding Ltd.",
+        "sector": "Distribution Services",
+        "industry": "Food Distributors",
+        "weekly_return_pct": 22.03,
+        "weekly_amount_b": 0.0,
+        "end_close": 2.88
+      }
+    ],
+    "top_losers_all": [
+      {
+        "symbol": "00905.HK",
+        "name": "Walnut Capital Limited",
+        "sector": "Finance",
+        "industry": "Financial Conglomerates",
+        "weekly_return_pct": -67.48,
+        "weekly_amount_b": 0.11,
+        "end_close": 0.34
+      },
+      {
+        "symbol": "02656.HK",
+        "name": "160 Health International Ltd.",
+        "sector": "Distribution Services",
+        "industry": "Medical Distributors",
+        "weekly_return_pct": -50.74,
+        "weekly_amount_b": 0.5,
+        "end_close": 49.26
+      },
+      {
+        "symbol": "01640.HK",
+        "name": "Qian Xun Technology Limited",
+        "sector": "Commercial Services",
+        "industry": "Advertising/Marketing Services",
+        "weekly_return_pct": -36.89,
+        "weekly_amount_b": 0.0,
+        "end_close": 1.3
+      },
+      {
+        "symbol": "01645.HK",
+        "name": "Haina Intelligent Equipment International Holdings Limited",
+        "sector": "Producer Manufacturing",
+        "industry": "Industrial Machinery",
+        "weekly_return_pct": -30.34,
+        "weekly_amount_b": 0.1,
+        "end_close": 2.87
+      },
+      {
+        "symbol": "01471.HK",
+        "name": "Zhongmiao Holdings (Qingdao) Co., Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Insurance Brokers/Services",
+        "weekly_return_pct": -27.25,
+        "weekly_amount_b": 0.0,
+        "end_close": 31.98
+      },
+      {
+        "symbol": "02597.HK",
+        "name": "Beijing Xunzhong Communication Technology Co., Ltd. Class H",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": -22.08,
+        "weekly_amount_b": 0.0,
+        "end_close": 28.44
+      },
+      {
+        "symbol": "06939.HK",
+        "name": "MEGAIN Holding (Cayman) Co. Ltd.",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": -17.28,
+        "weekly_amount_b": 0.02,
+        "end_close": 1.58
+      },
+      {
+        "symbol": "00799.HK",
+        "name": "IGG, Inc.",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": -15.62,
+        "weekly_amount_b": 0.09,
+        "end_close": 3.08
+      },
+      {
+        "symbol": "02469.HK",
+        "name": "Fenbi Limited",
+        "sector": "Commercial Services",
+        "industry": "Miscellaneous Commercial Services",
+        "weekly_return_pct": -15.18,
+        "weekly_amount_b": 0.04,
+        "end_close": 0.95
+      },
+      {
+        "symbol": "06959.HK",
+        "name": "Changjiu Holdings Limited",
+        "sector": "Retail Trade",
+        "industry": "Specialty Stores",
+        "weekly_return_pct": -14.29,
+        "weekly_amount_b": 0.0,
+        "end_close": 4.2
+      },
+      {
+        "symbol": "02565.HK",
+        "name": "PegBio Co., Ltd. Class H",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -14.2,
+        "weekly_amount_b": 0.25,
+        "end_close": 45.0
+      },
+      {
+        "symbol": "03669.HK",
+        "name": "China Yongda Automobiles Services Holdings Ltd.",
+        "sector": "Retail Trade",
+        "industry": "Specialty Stores",
+        "weekly_return_pct": -11.94,
+        "weekly_amount_b": 0.03,
+        "end_close": 1.18
+      }
+    ],
+    "top100_turnover": [
+      {
+        "symbol": "09988.HK",
+        "name": "Alibaba Group Holding Limited",
+        "sector": "Retail Trade",
+        "industry": "Department Stores",
+        "weekly_return_pct": 2.28,
+        "weekly_amount_b": 62.57,
+        "end_close": 125.5
+      },
+      {
+        "symbol": "00700.HK",
+        "name": "Tencent Holdings Ltd",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 1.59,
+        "weekly_amount_b": 56.56,
+        "end_close": 504.5
+      },
+      {
+        "symbol": "01810.HK",
+        "name": "Xiaomi Corporation Class B",
+        "sector": "Electronic Technology",
+        "industry": "Telecommunications Equipment",
+        "weekly_return_pct": -3.5,
+        "weekly_amount_b": 32.0,
+        "end_close": 30.9
+      },
+      {
+        "symbol": "06869.HK",
+        "name": "Yangtze Optical Fibre and Cable Joint Stock Ltd Co Class H",
+        "sector": "Electronic Technology",
+        "industry": "Telecommunications Equipment",
+        "weekly_return_pct": 19.63,
+        "weekly_amount_b": 30.33,
+        "end_close": 222.4
+      },
+      {
+        "symbol": "00883.HK",
+        "name": "CNOOC Limited",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": -1.63,
+        "weekly_amount_b": 25.06,
+        "end_close": 26.52
+      },
+      {
+        "symbol": "03690.HK",
+        "name": "Meituan Class B",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 6.89,
+        "weekly_amount_b": 23.75,
+        "end_close": 87.6
+      },
+      {
+        "symbol": "00981.HK",
+        "name": "Semiconductor Manufacturing International Corp.",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 10.22,
+        "weekly_amount_b": 22.37,
+        "end_close": 58.25
+      },
+      {
+        "symbol": "09992.HK",
+        "name": "Pop Mart International Group Limited",
+        "sector": "Consumer Services",
+        "industry": "Movies/Entertainment",
+        "weekly_return_pct": 3.85,
+        "weekly_amount_b": 21.54,
+        "end_close": 150.9
+      },
+      {
+        "symbol": "01211.HK",
+        "name": "BYD Company Limited Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 0.38,
+        "weekly_amount_b": 18.18,
+        "end_close": 105.1
+      },
+      {
+        "symbol": "00005.HK",
+        "name": "HSBC Holdings Plc",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 7.21,
+        "weekly_amount_b": 16.01,
+        "end_close": 139.7
+      },
+      {
+        "symbol": "00175.HK",
+        "name": "Geely Automobile Holdings Limited",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 13.65,
+        "weekly_amount_b": 14.87,
+        "end_close": 24.98
+      },
+      {
+        "symbol": "02513.HK",
+        "name": "Knowledge Atlas Technology Joint Stock Company Limited Class H",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 2.3,
+        "weekly_amount_b": 13.67,
+        "end_close": 936.0
+      },
+      {
+        "symbol": "01024.HK",
+        "name": "Kuaishou Technology Class B",
+        "sector": "Commercial Services",
+        "industry": "Advertising/Marketing Services",
+        "weekly_return_pct": -2.29,
+        "weekly_amount_b": 13.4,
+        "end_close": 45.14
+      },
+      {
+        "symbol": "02318.HK",
+        "name": "Ping An Insurance (Group) Company of China, Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 3.55,
+        "weekly_amount_b": 13.18,
+        "end_close": 62.75
+      },
+      {
+        "symbol": "02899.HK",
+        "name": "Zijin Mining Group Co., Ltd. Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 0.22,
+        "weekly_amount_b": 12.65,
+        "end_close": 36.48
+      },
+      {
+        "symbol": "01299.HK",
+        "name": "AIA Group Limited",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 1.66,
+        "weekly_amount_b": 11.79,
+        "end_close": 88.95
+      },
+      {
+        "symbol": "00388.HK",
+        "name": "Hong Kong Exchanges & Clearing Ltd.",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": 2.0,
+        "weekly_amount_b": 11.34,
+        "end_close": 408.4
+      },
+      {
+        "symbol": "00939.HK",
+        "name": "China Construction Bank Corporation Class H",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 0.48,
+        "weekly_amount_b": 10.7,
+        "end_close": 8.45
+      },
+      {
+        "symbol": "01347.HK",
+        "name": "Hua Hong Semiconductor Ltd.",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 9.98,
+        "weekly_amount_b": 10.46,
+        "end_close": 92.0
+      },
+      {
+        "symbol": "03317.HK",
+        "name": "Shenzhen Xunce Technology Co., Ltd. Class H",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 52.56,
+        "weekly_amount_b": 9.71,
+        "end_close": 310.0
+      },
+      {
+        "symbol": "00568.HK",
+        "name": "Shandong Molong Petroleum Machinery Co., Ltd. Class H",
+        "sector": "Industrial Services",
+        "industry": "Oilfield Services/Equipment",
+        "weekly_return_pct": 7.18,
+        "weekly_amount_b": 9.28,
+        "end_close": 8.51
+      },
+      {
+        "symbol": "01378.HK",
+        "name": "China Hongqiao Group Ltd.",
+        "sector": "Non-Energy Minerals",
+        "industry": "Aluminum",
+        "weekly_return_pct": 5.5,
+        "weekly_amount_b": 8.62,
+        "end_close": 38.36
+      },
+      {
+        "symbol": "02628.HK",
+        "name": "China Life Insurance Co. Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 7.78,
+        "weekly_amount_b": 7.91,
+        "end_close": 27.16
+      },
+      {
+        "symbol": "02259.HK",
+        "name": "Zijin Gold International Company Limited",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 0.49,
+        "weekly_amount_b": 7.39,
+        "end_close": 183.0
+      },
+      {
+        "symbol": "01398.HK",
+        "name": "Industrial and Commercial Bank of China Limited Class H",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 1.31,
+        "weekly_amount_b": 7.39,
+        "end_close": 6.97
+      },
+      {
+        "symbol": "03750.HK",
+        "name": "Contemporary Amperex Technology Co., Limited Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 7.75,
+        "weekly_amount_b": 7.27,
+        "end_close": 681.5
+      },
+      {
+        "symbol": "00857.HK",
+        "name": "PetroChina Co., Ltd. Class H",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": 2.37,
+        "weekly_amount_b": 7.11,
+        "end_close": 10.8
+      },
+      {
+        "symbol": "01801.HK",
+        "name": "Innovent Biologics, Inc.",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -2.64,
+        "weekly_amount_b": 6.77,
+        "end_close": 88.5
+      },
+      {
+        "symbol": "02382.HK",
+        "name": "Sunny Optical Technology (Group) Co., Ltd.",
+        "sector": "Electronic Technology",
+        "industry": "Electronic Components",
+        "weekly_return_pct": 10.27,
+        "weekly_amount_b": 6.71,
+        "end_close": 62.8
+      },
+      {
+        "symbol": "03988.HK",
+        "name": "Bank of China Limited Class H",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 0.6,
+        "weekly_amount_b": 6.67,
+        "end_close": 5.04
+      },
+      {
+        "symbol": "09926.HK",
+        "name": "Akeso, Inc.",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -0.72,
+        "weekly_amount_b": 6.6,
+        "end_close": 138.2
+      },
+      {
+        "symbol": "01530.HK",
+        "name": "3SBio, Inc.",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -9.32,
+        "weekly_amount_b": 6.43,
+        "end_close": 22.96
+      },
+      {
+        "symbol": "03993.HK",
+        "name": "CMOC Group Limited Class H",
+        "sector": "Distribution Services",
+        "industry": "Wholesale Distributors",
+        "weekly_return_pct": 5.73,
+        "weekly_amount_b": 6.37,
+        "end_close": 18.45
+      },
+      {
+        "symbol": "00941.HK",
+        "name": "China Mobile Limited",
+        "sector": "Communications",
+        "industry": "Specialty Telecommunications",
+        "weekly_return_pct": 1.63,
+        "weekly_amount_b": 6.26,
+        "end_close": 81.1
+      },
+      {
+        "symbol": "03808.HK",
+        "name": "Sinotruk Hong Kong Ltd.",
+        "sector": "Producer Manufacturing",
+        "industry": "Trucks/Construction/Farm Machinery",
+        "weekly_return_pct": 5.03,
+        "weekly_amount_b": 6.24,
+        "end_close": 44.24
+      },
+      {
+        "symbol": "01788.HK",
+        "name": "Guotai Junan International Holdings Limited",
+        "sector": "Finance",
+        "industry": "Investment Managers",
+        "weekly_return_pct": 32.05,
+        "weekly_amount_b": 6.01,
+        "end_close": 3.09
+      },
+      {
+        "symbol": "09888.HK",
+        "name": "Baidu, Inc. Class A",
+        "sector": "Technology Services",
+        "industry": "Internet Software/Services",
+        "weekly_return_pct": -0.91,
+        "weekly_amount_b": 5.97,
+        "end_close": 108.6
+      },
+      {
+        "symbol": "09880.HK",
+        "name": "UBTECH ROBOTICS CORP LTD Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Industrial Machinery",
+        "weekly_return_pct": 8.9,
+        "weekly_amount_b": 5.93,
+        "end_close": 108.9
+      },
+      {
+        "symbol": "01772.HK",
+        "name": "Ganfeng Lithium Group Co., Ltd. Class H",
+        "sector": "Process Industries",
+        "industry": "Chemicals: Specialty",
+        "weekly_return_pct": 13.17,
+        "weekly_amount_b": 5.91,
+        "end_close": 79.05
+      },
+      {
+        "symbol": "02269.HK",
+        "name": "Wuxi Biologics (Cayman) Inc.",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": 2.98,
+        "weekly_amount_b": 5.53,
+        "end_close": 35.9
+      },
+      {
+        "symbol": "02020.HK",
+        "name": "ANTA Sports Products Ltd.",
+        "sector": "Consumer Non-Durables",
+        "industry": "Apparel/Footwear",
+        "weekly_return_pct": 7.5,
+        "weekly_amount_b": 5.41,
+        "end_close": 83.9
+      },
+      {
+        "symbol": "09618.HK",
+        "name": "JD.com, Inc. Class A",
+        "sector": "Retail Trade",
+        "industry": "Internet Retail",
+        "weekly_return_pct": -1.33,
+        "weekly_amount_b": 5.38,
+        "end_close": 111.4
+      },
+      {
+        "symbol": "09868.HK",
+        "name": "XPeng, Inc. Class A",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": -1.83,
+        "weekly_amount_b": 5.16,
+        "end_close": 67.0
+      },
+      {
+        "symbol": "00992.HK",
+        "name": "Lenovo Group Limited",
+        "sector": "Electronic Technology",
+        "industry": "Computer Processing Hardware",
+        "weekly_return_pct": 6.42,
+        "weekly_amount_b": 5.01,
+        "end_close": 10.11
+      },
+      {
+        "symbol": "06160.HK",
+        "name": "BeOne Medicines Ltd.",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 2.22,
+        "weekly_amount_b": 4.97,
+        "end_close": 189.1
+      },
+      {
+        "symbol": "09999.HK",
+        "name": "Netease Inc",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 1.31,
+        "weekly_amount_b": 4.87,
+        "end_close": 178.4
+      },
+      {
+        "symbol": "01093.HK",
+        "name": "CSPC Pharmaceutical Group Limited",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -3.74,
+        "weekly_amount_b": 4.32,
+        "end_close": 9.26
+      },
+      {
+        "symbol": "09660.HK",
+        "name": "Horizon Robotics Class B",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 3.91,
+        "weekly_amount_b": 4.27,
+        "end_close": 7.18
+      },
+      {
+        "symbol": "02338.HK",
+        "name": "Weichai Power Co., Ltd. Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Auto Parts: OEM",
+        "weekly_return_pct": 12.89,
+        "weekly_amount_b": 4.25,
+        "end_close": 32.92
+      },
+      {
+        "symbol": "00016.HK",
+        "name": "Sun Hung Kai Properties Limited",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 3.05,
+        "weekly_amount_b": 4.24,
+        "end_close": 138.7
+      },
+      {
+        "symbol": "09863.HK",
+        "name": "Zhejiang Leapmotor Technology Co., Ltd. Class H",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 7.02,
+        "weekly_amount_b": 4.22,
+        "end_close": 54.85
+      },
+      {
+        "symbol": "02015.HK",
+        "name": "Li Auto, Inc. Class A",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 4.21,
+        "weekly_amount_b": 4.15,
+        "end_close": 74.2
+      },
+      {
+        "symbol": "01428.HK",
+        "name": "Bright Smart Securities & Commodities Group Limited",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": 7.59,
+        "weekly_amount_b": 4.09,
+        "end_close": 12.75
+      },
+      {
+        "symbol": "00020.HK",
+        "name": "SenseTime Group, Inc. Class B",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 6.35,
+        "weekly_amount_b": 4.08,
+        "end_close": 2.01
+      },
+      {
+        "symbol": "09995.HK",
+        "name": "RemeGen Co. Ltd. Class H",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -3.99,
+        "weekly_amount_b": 4.07,
+        "end_close": 106.0
+      },
+      {
+        "symbol": "01088.HK",
+        "name": "China Shenhua Energy Co. Ltd. Class H",
+        "sector": "Energy Minerals",
+        "industry": "Coal",
+        "weekly_return_pct": -2.81,
+        "weekly_amount_b": 4.03,
+        "end_close": 45.0
+      },
+      {
+        "symbol": "01171.HK",
+        "name": "Yankuang Energy Group Company Limited Class H",
+        "sector": "Energy Minerals",
+        "industry": "Coal",
+        "weekly_return_pct": 0.85,
+        "weekly_amount_b": 4.0,
+        "end_close": 14.25
+      },
+      {
+        "symbol": "06181.HK",
+        "name": "Laopu Gold Co. Ltd. Class H",
+        "sector": "Consumer Durables",
+        "industry": "Other Consumer Specialties",
+        "weekly_return_pct": 0.54,
+        "weekly_amount_b": 3.94,
+        "end_close": 654.0
+      },
+      {
+        "symbol": "03896.HK",
+        "name": "Kingsoft Cloud Holdings Ltd.",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 7.16,
+        "weekly_amount_b": 3.89,
+        "end_close": 7.93
+      },
+      {
+        "symbol": "00386.HK",
+        "name": "China Petroleum & Chemical Corporation Class H",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": 1.09,
+        "weekly_amount_b": 3.88,
+        "end_close": 4.63
+      },
+      {
+        "symbol": "01138.HK",
+        "name": "COSCO SHIPPING Energy Transportation Co., Ltd. Class H",
+        "sector": "Transportation",
+        "industry": "Marine Shipping",
+        "weekly_return_pct": 1.77,
+        "weekly_amount_b": 3.8,
+        "end_close": 19.54
+      },
+      {
+        "symbol": "01384.HK",
+        "name": "Deepexi Technology Co Ltd Class H",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 48.67,
+        "weekly_amount_b": 3.8,
+        "end_close": 44.6
+      },
+      {
+        "symbol": "09961.HK",
+        "name": "Trip.com Group Ltd.",
+        "sector": "Consumer Services",
+        "industry": "Other Consumer Services",
+        "weekly_return_pct": 1.78,
+        "weekly_amount_b": 3.78,
+        "end_close": 401.0
+      },
+      {
+        "symbol": "00669.HK",
+        "name": "Techtronic Industries Co., Ltd.",
+        "sector": "Consumer Durables",
+        "industry": "Tools & Hardware",
+        "weekly_return_pct": 6.13,
+        "weekly_amount_b": 3.72,
+        "end_close": 114.2
+      },
+      {
+        "symbol": "03986.HK",
+        "name": "Giga Device Semiconductor Inc. Class H",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 7.16,
+        "weekly_amount_b": 3.7,
+        "end_close": 392.2
+      },
+      {
+        "symbol": "03968.HK",
+        "name": "China Merchants Bank Co., Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 1.79,
+        "weekly_amount_b": 3.65,
+        "end_close": 50.0
+      },
+      {
+        "symbol": "02600.HK",
+        "name": "Aluminum Corporation of China Limited Class H",
+        "sector": "Distribution Services",
+        "industry": "Wholesale Distributors",
+        "weekly_return_pct": 6.06,
+        "weekly_amount_b": 3.55,
+        "end_close": 12.43
+      },
+      {
+        "symbol": "01177.HK",
+        "name": "Sino Biopharmaceutical Limited",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -6.92,
+        "weekly_amount_b": 3.49,
+        "end_close": 5.92
+      },
+      {
+        "symbol": "02359.HK",
+        "name": "WuXi AppTec Co., Ltd. Class H",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 4.68,
+        "weekly_amount_b": 3.48,
+        "end_close": 129.7
+      },
+      {
+        "symbol": "09626.HK",
+        "name": "Bilibili Inc. Class Z",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 0.82,
+        "weekly_amount_b": 3.36,
+        "end_close": 184.1
+      },
+      {
+        "symbol": "01276.HK",
+        "name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd. Class H",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 0.9,
+        "weekly_amount_b": 3.19,
+        "end_close": 67.5
+      },
+      {
+        "symbol": "03330.HK",
+        "name": "Lingbao Gold Group Company Limited Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": -2.81,
+        "weekly_amount_b": 3.05,
+        "end_close": 27.7
+      },
+      {
+        "symbol": "03692.HK",
+        "name": "Hansoh Pharmaceutical Group Company Limited",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 3.58,
+        "weekly_amount_b": 3.02,
+        "end_close": 38.76
+      },
+      {
+        "symbol": "02228.HK",
+        "name": "XtalPi Holdings Limited",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": 0.62,
+        "weekly_amount_b": 3.01,
+        "end_close": 9.8
+      },
+      {
+        "symbol": "01072.HK",
+        "name": "Dongfang Electric Corporation Limited Class H",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 5.89,
+        "weekly_amount_b": 2.94,
+        "end_close": 38.84
+      },
+      {
+        "symbol": "06088.HK",
+        "name": "FIT Hon Teng Limited",
+        "sector": "Electronic Technology",
+        "industry": "Electronic Components",
+        "weekly_return_pct": 4.29,
+        "weekly_amount_b": 2.92,
+        "end_close": 7.78
+      },
+      {
+        "symbol": "02388.HK",
+        "name": "BOC Hong Kong (Holdings) Limited",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 1.55,
+        "weekly_amount_b": 2.87,
+        "end_close": 44.42
+      },
+      {
+        "symbol": "01787.HK",
+        "name": "Shandong Gold Mining Co., Ltd. Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 2.32,
+        "weekly_amount_b": 2.84,
+        "end_close": 34.4
+      },
+      {
+        "symbol": "01336.HK",
+        "name": "New China Life Insurance Co., Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 1.41,
+        "weekly_amount_b": 2.72,
+        "end_close": 47.62
+      },
+      {
+        "symbol": "01818.HK",
+        "name": "Zhaojin Mining Industry Co., Ltd. Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 1.87,
+        "weekly_amount_b": 2.66,
+        "end_close": 33.74
+      },
+      {
+        "symbol": "02328.HK",
+        "name": "PICC Property & Casualty Co., Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Property/Casualty Insurance",
+        "weekly_return_pct": 1.23,
+        "weekly_amount_b": 2.66,
+        "end_close": 14.8
+      },
+      {
+        "symbol": "03858.HK",
+        "name": "Jiaxin International Resources Investment Limited",
+        "sector": "Non-Energy Minerals",
+        "industry": "Other Metals/Minerals",
+        "weekly_return_pct": 2.02,
+        "weekly_amount_b": 2.65,
+        "end_close": 116.4
+      },
+      {
+        "symbol": "09606.HK",
+        "name": "Duality Biotherapeutics, Inc.",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -5.67,
+        "weekly_amount_b": 2.65,
+        "end_close": 303.0
+      },
+      {
+        "symbol": "01729.HK",
+        "name": "Time Interconnect Technology Limited",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 21.06,
+        "weekly_amount_b": 2.6,
+        "end_close": 19.72
+      },
+      {
+        "symbol": "06693.HK",
+        "name": "Chifeng Jilong Gold Mining Co., Ltd. Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": -4.84,
+        "weekly_amount_b": 2.59,
+        "end_close": 42.1
+      },
+      {
+        "symbol": "02601.HK",
+        "name": "China Pacific Insurance (Group) Co., Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 2.87,
+        "weekly_amount_b": 2.57,
+        "end_close": 33.72
+      },
+      {
+        "symbol": "06030.HK",
+        "name": "CITIC Securities Co. Ltd. Class H",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": 10.52,
+        "weekly_amount_b": 2.54,
+        "end_close": 26.9
+      },
+      {
+        "symbol": "00241.HK",
+        "name": "Alibaba Health Information Technology Ltd.",
+        "sector": "Technology Services",
+        "industry": "Information Technology Services",
+        "weekly_return_pct": -3.13,
+        "weekly_amount_b": 2.51,
+        "end_close": 4.64
+      },
+      {
+        "symbol": "01288.HK",
+        "name": "Agricultural Bank of China Limited Class H",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 3.76,
+        "weekly_amount_b": 2.51,
+        "end_close": 5.79
+      },
+      {
+        "symbol": "00358.HK",
+        "name": "Jiangxi Copper Company Limited Class H",
+        "sector": "Non-Energy Minerals",
+        "industry": "Other Metals/Minerals",
+        "weekly_return_pct": 3.07,
+        "weekly_amount_b": 2.41,
+        "end_close": 36.94
+      },
+      {
+        "symbol": "00001.HK",
+        "name": "CK Hutchison Holdings Ltd",
+        "sector": "Retail Trade",
+        "industry": "Specialty Stores",
+        "weekly_return_pct": 5.17,
+        "weekly_amount_b": 2.36,
+        "end_close": 64.1
+      },
+      {
+        "symbol": "02423.HK",
+        "name": "KE Holdings, Inc. Class A",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 4.75,
+        "weekly_amount_b": 2.36,
+        "end_close": 40.54
+      },
+      {
+        "symbol": "02331.HK",
+        "name": "Li Ning Company Limited",
+        "sector": "Consumer Non-Durables",
+        "industry": "Apparel/Footwear",
+        "weekly_return_pct": 5.89,
+        "weekly_amount_b": 2.33,
+        "end_close": 23.0
+      },
+      {
+        "symbol": "06690.HK",
+        "name": "Haier Smart Home Co., Ltd. Class H",
+        "sector": "Consumer Durables",
+        "industry": "Electronics/Appliances",
+        "weekly_return_pct": 0.48,
+        "weekly_amount_b": 2.28,
+        "end_close": 20.86
+      },
+      {
+        "symbol": "03939.HK",
+        "name": "Wanguo Gold Group Limited",
+        "sector": "Non-Energy Minerals",
+        "industry": "Other Metals/Minerals",
+        "weekly_return_pct": -2.32,
+        "weekly_amount_b": 2.27,
+        "end_close": 13.91
+      },
+      {
+        "symbol": "02057.HK",
+        "name": "ZTO Express (Cayman), Inc. Class A",
+        "sector": "Transportation",
+        "industry": "Air Freight/Couriers",
+        "weekly_return_pct": -0.05,
+        "weekly_amount_b": 2.12,
+        "end_close": 193.6
+      },
+      {
+        "symbol": "01109.HK",
+        "name": "China Resources Land Limited",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 0.89,
+        "weekly_amount_b": 2.1,
+        "end_close": 29.42
+      },
+      {
+        "symbol": "00288.HK",
+        "name": "WH Group Ltd. (HK)",
+        "sector": "Consumer Non-Durables",
+        "industry": "Food: Meat/Fish/Dairy",
+        "weekly_return_pct": 3.54,
+        "weekly_amount_b": 2.09,
+        "end_close": 10.83
+      },
+      {
+        "symbol": "00268.HK",
+        "name": "Kingdee International Software Group Co., Ltd.",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": -3.28,
+        "weekly_amount_b": 2.08,
+        "end_close": 8.25
+      },
+      {
+        "symbol": "01519.HK",
+        "name": "J&T Global Express Limited",
+        "sector": "Transportation",
+        "industry": "Air Freight/Couriers",
+        "weekly_return_pct": 9.8,
+        "weekly_amount_b": 2.07,
+        "end_close": 11.09
+      }
+    ],
+    "daily_breadth": [
+      {
+        "date": "2026-04-02",
+        "prev": "2026-04-01",
+        "advancers": 501,
+        "decliners": 730,
+        "flat": 260,
+        "median_pct": 0.0,
+        "mean_pct": -0.43
+      },
+      {
+        "date": "2026-04-08",
+        "prev": "2026-04-02",
+        "advancers": 1019,
+        "decliners": 293,
+        "flat": 112,
+        "median_pct": 1.96,
+        "mean_pct": 2.61
+      },
+      {
+        "date": "2026-04-09",
+        "prev": "2026-04-08",
+        "advancers": 377,
+        "decliners": 758,
+        "flat": 167,
+        "median_pct": -0.66,
+        "mean_pct": -0.78
+      },
+      {
+        "date": "2026-04-10",
+        "prev": "2026-04-09",
+        "advancers": 689,
+        "decliners": 463,
+        "flat": 126,
+        "median_pct": 0.27,
+        "mean_pct": 0.59
+      }
+    ],
+    "sector_groups": [
+      {
+        "group": "Producer Manufacturing",
+        "stock_count": 79,
+        "advancers": 64,
+        "decliners": 13,
+        "mean_return_pct": 5.03,
+        "median_return_pct": 4.54,
+        "weekly_amount_b": 75.17,
+        "leader_symbol": "01211.HK",
+        "leader_name": "BYD Company Limited Class H",
+        "leader_return_pct": 0.38
+      },
+      {
+        "group": "Electronic Technology",
+        "stock_count": 57,
+        "advancers": 40,
+        "decliners": 14,
+        "mean_return_pct": 4.3,
+        "median_return_pct": 4.2,
+        "weekly_amount_b": 132.95,
+        "leader_symbol": "01810.HK",
+        "leader_name": "Xiaomi Corporation Class B",
+        "leader_return_pct": -3.5
+      },
+      {
+        "group": "Process Industries",
+        "stock_count": 44,
+        "advancers": 31,
+        "decliners": 11,
+        "mean_return_pct": 3.3,
+        "median_return_pct": 2.93,
+        "weekly_amount_b": 14.54,
+        "leader_symbol": "01772.HK",
+        "leader_name": "Ganfeng Lithium Group Co., Ltd. Class H",
+        "leader_return_pct": 13.17
+      },
+      {
+        "group": "Industrial Services",
+        "stock_count": 41,
+        "advancers": 27,
+        "decliners": 11,
+        "mean_return_pct": 3.06,
+        "median_return_pct": 1.64,
+        "weekly_amount_b": 14.4,
+        "leader_symbol": "00568.HK",
+        "leader_name": "Shandong Molong Petroleum Machinery Co., Ltd. Class H",
+        "leader_return_pct": 7.18
+      },
+      {
+        "group": "Consumer Durables",
+        "stock_count": 48,
+        "advancers": 37,
+        "decliners": 10,
+        "mean_return_pct": 2.98,
+        "median_return_pct": 2.33,
+        "weekly_amount_b": 57.16,
+        "leader_symbol": "00175.HK",
+        "leader_name": "Geely Automobile Holdings Limited",
+        "leader_return_pct": 13.65
+      },
+      {
+        "group": "Transportation",
+        "stock_count": 41,
+        "advancers": 35,
+        "decliners": 6,
+        "mean_return_pct": 2.87,
+        "median_return_pct": 2.12,
+        "weekly_amount_b": 20.78,
+        "leader_symbol": "01138.HK",
+        "leader_name": "COSCO SHIPPING Energy Transportation Co., Ltd. Class H",
+        "leader_return_pct": 1.77
+      },
+      {
+        "group": "Finance",
+        "stock_count": 186,
+        "advancers": 144,
+        "decliners": 32,
+        "mean_return_pct": 2.29,
+        "median_return_pct": 2.29,
+        "weekly_amount_b": 160.8,
+        "leader_symbol": "00005.HK",
+        "leader_name": "HSBC Holdings Plc",
+        "leader_return_pct": 7.21
+      },
+      {
+        "group": "Non-Energy Minerals",
+        "stock_count": 40,
+        "advancers": 31,
+        "decliners": 9,
+        "mean_return_pct": 1.86,
+        "median_return_pct": 1.56,
+        "weekly_amount_b": 56.88,
+        "leader_symbol": "02899.HK",
+        "leader_name": "Zijin Mining Group Co., Ltd. Class H",
+        "leader_return_pct": 0.22
+      },
+      {
+        "group": "Health Technology",
+        "stock_count": 137,
+        "advancers": 70,
+        "decliners": 63,
+        "mean_return_pct": 1.46,
+        "median_return_pct": 0.27,
+        "weekly_amount_b": 96.62,
+        "leader_symbol": "01801.HK",
+        "leader_name": "Innovent Biologics, Inc.",
+        "leader_return_pct": -2.64
+      },
+      {
+        "group": "Communications",
+        "stock_count": 13,
+        "advancers": 11,
+        "decliners": 1,
+        "mean_return_pct": 1.46,
+        "median_return_pct": 1.1,
+        "weekly_amount_b": 9.42,
+        "leader_symbol": "00941.HK",
+        "leader_name": "China Mobile Limited",
+        "leader_return_pct": 1.63
+      },
+      {
+        "group": "Technology Services",
+        "stock_count": 95,
+        "advancers": 52,
+        "decliners": 39,
+        "mean_return_pct": 1.44,
+        "median_return_pct": 0.59,
+        "weekly_amount_b": 157.88,
+        "leader_symbol": "00700.HK",
+        "leader_name": "Tencent Holdings Ltd",
+        "leader_return_pct": 1.59
+      },
+      {
+        "group": "Consumer Non-Durables",
+        "stock_count": 68,
+        "advancers": 47,
+        "decliners": 19,
+        "mean_return_pct": 1.39,
+        "median_return_pct": 1.56,
+        "weekly_amount_b": 30.24,
+        "leader_symbol": "02020.HK",
+        "leader_name": "ANTA Sports Products Ltd.",
+        "leader_return_pct": 7.5
+      }
+    ],
+    "industry_groups": [
+      {
+        "group": "Miscellaneous",
+        "stock_count": 5,
+        "advancers": 5,
+        "decliners": 0,
+        "mean_return_pct": 8.29,
+        "median_return_pct": 8.54,
+        "weekly_amount_b": 1.71,
+        "leader_symbol": "00136.HK",
+        "leader_name": "China Ruyi Holdings Limited",
+        "leader_return_pct": 9.52
+      },
+      {
+        "group": "Auto Parts: OEM",
+        "stock_count": 13,
+        "advancers": 10,
+        "decliners": 2,
+        "mean_return_pct": 7.91,
+        "median_return_pct": 4.85,
+        "weekly_amount_b": 7.99,
+        "leader_symbol": "02338.HK",
+        "leader_name": "Weichai Power Co., Ltd. Class H",
+        "leader_return_pct": 12.89
+      },
+      {
+        "group": "Textiles",
+        "stock_count": 5,
+        "advancers": 5,
+        "decliners": 0,
+        "mean_return_pct": 6.81,
+        "median_return_pct": 6.61,
+        "weekly_amount_b": 0.07,
+        "leader_symbol": "00321.HK",
+        "leader_name": "Texwinca Holdings Limited",
+        "leader_return_pct": 6.61
+      },
+      {
+        "group": "Data Processing Services",
+        "stock_count": 9,
+        "advancers": 6,
+        "decliners": 3,
+        "mean_return_pct": 6.26,
+        "median_return_pct": 5.4,
+        "weekly_amount_b": 16.05,
+        "leader_symbol": "03317.HK",
+        "leader_name": "Shenzhen Xunce Technology Co., Ltd. Class H",
+        "leader_return_pct": 52.56
+      },
+      {
+        "group": "Investment Managers",
+        "stock_count": 13,
+        "advancers": 12,
+        "decliners": 1,
+        "mean_return_pct": 6.25,
+        "median_return_pct": 3.45,
+        "weekly_amount_b": 9.17,
+        "leader_symbol": "01788.HK",
+        "leader_name": "Guotai Junan International Holdings Limited",
+        "leader_return_pct": 32.05
+      },
+      {
+        "group": "Trucks/Construction/Farm Machinery",
+        "stock_count": 8,
+        "advancers": 8,
+        "decliners": 0,
+        "mean_return_pct": 5.96,
+        "median_return_pct": 5.38,
+        "weekly_amount_b": 9.01,
+        "leader_symbol": "03808.HK",
+        "leader_name": "Sinotruk Hong Kong Ltd.",
+        "leader_return_pct": 5.03
+      },
+      {
+        "group": "Semiconductors",
+        "stock_count": 16,
+        "advancers": 11,
+        "decliners": 4,
+        "mean_return_pct": 5.69,
+        "median_return_pct": 5.47,
+        "weekly_amount_b": 44.85,
+        "leader_symbol": "00981.HK",
+        "leader_name": "Semiconductor Manufacturing International Corp.",
+        "leader_return_pct": 10.22
+      },
+      {
+        "group": "Investment Banks/Brokers",
+        "stock_count": 25,
+        "advancers": 23,
+        "decliners": 0,
+        "mean_return_pct": 5.67,
+        "median_return_pct": 4.8,
+        "weekly_amount_b": 24.79,
+        "leader_symbol": "00388.HK",
+        "leader_name": "Hong Kong Exchanges & Clearing Ltd.",
+        "leader_return_pct": 2.0
+      },
+      {
+        "group": "Electrical Products",
+        "stock_count": 23,
+        "advancers": 18,
+        "decliners": 5,
+        "mean_return_pct": 5.18,
+        "median_return_pct": 5.71,
+        "weekly_amount_b": 42.26,
+        "leader_symbol": "01211.HK",
+        "leader_name": "BYD Company Limited Class H",
+        "leader_return_pct": 0.38
+      },
+      {
+        "group": "Motor Vehicles",
+        "stock_count": 20,
+        "advancers": 16,
+        "decliners": 3,
+        "mean_return_pct": 5.17,
+        "median_return_pct": 4.02,
+        "weekly_amount_b": 37.71,
+        "leader_symbol": "00175.HK",
+        "leader_name": "Geely Automobile Holdings Limited",
+        "leader_return_pct": 13.65
+      },
+      {
+        "group": "Hotels/Resorts/Cruise lines",
+        "stock_count": 6,
+        "advancers": 6,
+        "decliners": 0,
+        "mean_return_pct": 4.35,
+        "median_return_pct": 3.53,
+        "weekly_amount_b": 0.94,
+        "leader_symbol": "01179.HK",
+        "leader_name": "H World Group Limited",
+        "leader_return_pct": 5.52
+      },
+      {
+        "group": "Steel",
+        "stock_count": 7,
+        "advancers": 6,
+        "decliners": 1,
+        "mean_return_pct": 4.3,
+        "median_return_pct": 1.94,
+        "weekly_amount_b": 0.58,
+        "leader_symbol": "00323.HK",
+        "leader_name": "Maanshan Iron & Steel Co. Ltd. Class H",
+        "leader_return_pct": 11.46
+      }
+    ],
+    "top_turnover_sectors": [
+      {
+        "sector": "Finance",
+        "stock_count": 186,
+        "weekly_amount_b": 160.8,
+        "mean_return_pct": 2.29,
+        "median_return_pct": 2.29
+      },
+      {
+        "sector": "Technology Services",
+        "stock_count": 95,
+        "weekly_amount_b": 157.88,
+        "mean_return_pct": 1.44,
+        "median_return_pct": 0.59
+      },
+      {
+        "sector": "Electronic Technology",
+        "stock_count": 57,
+        "weekly_amount_b": 132.95,
+        "mean_return_pct": 4.3,
+        "median_return_pct": 4.2
+      },
+      {
+        "sector": "Health Technology",
+        "stock_count": 137,
+        "weekly_amount_b": 96.62,
+        "mean_return_pct": 1.46,
+        "median_return_pct": 0.27
+      },
+      {
+        "sector": "Retail Trade",
+        "stock_count": 45,
+        "weekly_amount_b": 78.25,
+        "mean_return_pct": -0.26,
+        "median_return_pct": -0.88
+      },
+      {
+        "sector": "Producer Manufacturing",
+        "stock_count": 79,
+        "weekly_amount_b": 75.17,
+        "mean_return_pct": 5.03,
+        "median_return_pct": 4.54
+      },
+      {
+        "sector": "Consumer Durables",
+        "stock_count": 48,
+        "weekly_amount_b": 57.16,
+        "mean_return_pct": 2.98,
+        "median_return_pct": 2.33
+      },
+      {
+        "sector": "Non-Energy Minerals",
+        "stock_count": 40,
+        "weekly_amount_b": 56.88,
+        "mean_return_pct": 1.86,
+        "median_return_pct": 1.56
+      },
+      {
+        "sector": "Energy Minerals",
+        "stock_count": 17,
+        "weekly_amount_b": 48.44,
+        "mean_return_pct": -0.45,
+        "median_return_pct": 0.36
+      },
+      {
+        "sector": "Consumer Services",
+        "stock_count": 45,
+        "weekly_amount_b": 37.82,
+        "mean_return_pct": 1.23,
+        "median_return_pct": 0.83
+      },
+      {
+        "sector": "Consumer Non-Durables",
+        "stock_count": 68,
+        "weekly_amount_b": 30.24,
+        "mean_return_pct": 1.39,
+        "median_return_pct": 1.56
+      },
+      {
+        "sector": "Transportation",
+        "stock_count": 41,
+        "weekly_amount_b": 20.78,
+        "mean_return_pct": 2.87,
+        "median_return_pct": 2.12
+      }
+    ]
+  },
+  "index_comparison": [
+    {
+      "label": "恒指",
+      "ticker": "^HSI",
+      "note": "",
+      "start_close": 25294.03,
+      "end_close": 25893.54,
+      "return_pct": 2.37
+    },
+    {
+      "label": "國指",
+      "ticker": "^HSCE",
+      "note": "",
+      "start_close": 8504.81,
+      "end_close": 8655.04,
+      "return_pct": 1.77
+    },
+    {
+      "label": "科指 ETF proxy",
+      "ticker": "3032.HK",
+      "note": "HSTECH ETF proxy",
+      "start_close": 4.73,
+      "end_close": 4.84,
+      "return_pct": 2.37
+    },
+    {
+      "label": "上證綜指",
+      "ticker": "000001.SS",
+      "note": "A股",
+      "start_close": 3948.55,
+      "end_close": 3986.23,
+      "return_pct": 0.95
+    },
+    {
+      "label": "深證成指",
+      "ticker": "399001.SZ",
+      "note": "A股",
+      "start_close": 13706.52,
+      "end_close": 14309.47,
+      "return_pct": 4.4
+    }
+  ],
+  "watchlist_snapshot": [
+    {
+      "ticker": "0700.HK",
+      "alias": "Tencent",
+      "start_close": 496.6,
+      "close": 504.5,
+      "week_change_pct": 1.59,
+      "day_change_pct": -0.79,
+      "volume_ratio": 0.92,
+      "last_date": "2026-04-10"
+    },
+    {
+      "ticker": "9988.HK",
+      "alias": "Alibaba",
+      "start_close": 122.7,
+      "close": 125.5,
+      "week_change_pct": 2.28,
+      "day_change_pct": 2.12,
+      "volume_ratio": 0.78,
+      "last_date": "2026-04-10"
+    },
+    {
+      "ticker": "3690.HK",
+      "alias": "Meituan",
+      "start_close": 81.95,
+      "close": 87.6,
+      "week_change_pct": 6.89,
+      "day_change_pct": -0.45,
+      "volume_ratio": 0.57,
+      "last_date": "2026-04-10"
+    },
+    {
+      "ticker": "1810.HK",
+      "alias": "Xiaomi",
+      "start_close": 32.02,
+      "close": 30.9,
+      "week_change_pct": -3.5,
+      "day_change_pct": -1.47,
+      "volume_ratio": 0.83,
+      "last_date": "2026-04-10"
+    },
+    {
+      "ticker": "600519.SS",
+      "alias": "Kweichow Moutai",
+      "start_close": 1459.44,
+      "close": 1453.96,
+      "week_change_pct": -0.38,
+      "day_change_pct": -0.45,
+      "volume_ratio": 1.14,
+      "last_date": "2026-04-10"
+    },
+    {
+      "ticker": "000333.SZ",
+      "alias": "Midea",
+      "start_close": 76.84,
+      "close": 76.41,
+      "week_change_pct": -0.56,
+      "day_change_pct": -0.14,
+      "volume_ratio": 1.05,
+      "last_date": "2026-04-10"
+    }
+  ],
+  "news_map": {
+    "Hong Kong stocks": [
+      {
+        "title": "Hong Kong Stocks Surge As Ceasefire Sparks Market Rally - Evrim Ağacı",
+        "pubDate": "Wed, 08 Apr 2026 19:46:20 GMT",
+        "source": "Evrim Ağacı",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZDY5cWx3NGppNldHc3FNSHFNUkdMNXlWeWpYVS1iS253S1VCeVdYN0t5aFVsZEJiNnZfT0EyNWRJNzE0cVNmV1V3X3kxR3pYY3lncUtLYnVQbm1EUDBYMktWc1drWW8zN1VrZm1SdGo1Zi1Dci1VRGpiTDRNLVZCeVlhTVVVemU4NGQ4Zkg3UFA4RE0?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Edge Higher - TradingView — Track All Markets",
+        "pubDate": "Fri, 10 Apr 2026 02:10:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcklNb1Vud2RWa0Fmc19yWTM3ejY2R2xQQUVrdWhlV2szX0FOeXlpa0FVd1NMQy1nZGdjX0pCWTM4ZW9McGVhbERJbjgwV3ZWUnoydjZPWi00TXFOUDZRX3RNbnJCaS15QWF5ekVCYmVBTW1GRk9ZMDJUamhNQlJwOGZSdkswUQ?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Midday Review | Hang Seng Index rose 0.61% in the morning session, with Chinese brokerage stocks leading the gains. - Moomoo",
+        "pubDate": "Fri, 10 Apr 2026 04:13:49 GMT",
+        "source": "Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRl91dkxSZWpMU3lBeTFPVkRPUThMUXduOGxmS0UzaFgzZjluWmFiUGZCWEYxOUFaeklnUnREV3MyN3BBZkxBSDZFamp5YlRKM2drTDJrZk0zdmd0eVpfbW5mS3c0dVp2bkJDcXpmWTNueDAzTU9VVV8wNFJrU0psVEpZVmZFMXR6RmgySHFBYlhfdzd5YkpMMHhlSQ?oc=5"
+      },
+      {
+        "title": "Iran War: China and Hong Kong’s stocks rise 2.5% after ceasefire (with video) - Plataforma Media",
+        "pubDate": "Wed, 08 Apr 2026 09:27:47 GMT",
+        "source": "Plataforma Media",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM0xZelpKMGRXaGMtM0JGMHJDeGgxa2hUcElyeFo1aE03X3piSXVVTHN1WEg2N2lMYW9fS0Q1cTBVQVphOVNBUTBRb1BFeE5wSTVYVDlIYXAyOWtLd2ZpSmVKY1YzTUJ2STBFOHMwVGdjVFVJb1UyS0RJSjRteFN5WlE2U29TblVzM0s1Wl9EeGlibHg5N0dCVTJGdWNMdw?oc=5"
+      },
+      {
+        "title": "Yum China files annual report for 2025 with Hong Kong Stock Exchange - Investing.com",
+        "pubDate": "Wed, 08 Apr 2026 12:43:08 GMT",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeml3OXZ1M2RFTm1CWU0wVkFUR0ZsZEs3b3JDRks4Z21TaEpCbEo3c0o4QlRDNWJ1bkdZS1lPWU05b05hZTEtR2k2TkFpX2lEcGM3cFJfRVhuSS1qMmRYYUFZS05kTnVnSU05NFZER2lKMkNCYkp3LVRJbFJWWmJudm50TTdyRTJuOWZsX3c2c0JCdkx6N0doZFdmSVFRb3Y2MXhnd0Q5dl9Nb2ZjRjh4NS16MVlEdENJdjJUWXBzYzRXdw?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Fall As US-Iran Ceasefire On Thin Ice; Two Firms File For IPO - marketscreener.com",
+        "pubDate": "Thu, 09 Apr 2026 08:57:22 GMT",
+        "source": "marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVRQMmppcnVERmxxTXZ4TTBfU01mLTZTLWpQRFNKT1BiS04zQVJYS2JyRWsxUTBXbkNFZjdFOHN3dGg0VmE2S0tfSkc5eE9UdEh3Q2E1c2FKSXU1VHdwekNLYVdTSnpYSkRORGZuekpJTWQ5ZWxvVXB0WDhfMG9vQWZzTko3eWR0RmdnTUw1OEljM080ZTNvcUVyQlN3M04tT2lYaGo5ZTkydjZCaDQ4MGtiTGJ1djh3cm03Nm81V3h6WUNPc1B3aUJn?oc=5"
+      },
+      {
+        "title": "Hong Kong 50 forecast – Market Outlook & Future Trends - Capital.com",
+        "pubDate": "Fri, 10 Apr 2026 11:01:40 GMT",
+        "source": "Capital.com",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FQTk3QjRFeVZkX0R4TjF3Ni0ybHZXNkV4NjFRWDdic0d6Nl9pT0VaeVNPZU84eFljX3ltSkVRaHJhbUFnck5OemI5ZTdTaDVhR1ZJVG90TGhfZkpqWlI2aExXM1NqZTQ?oc=5"
+      }
+    ],
+    "China stocks": [
+      {
+        "title": "China Stocks Reclaim Key Levels: Shanghai Composite Above 4,000 - News and Statistics - IndexBox",
+        "pubDate": "Sat, 11 Apr 2026 03:01:00 GMT",
+        "source": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ1M2TmhWRGFNTDAwamdSLUZVTUlBZVQwY254U2dOUXFpbkVfMFY5bDN5MnNXeWkzbFRaWDVqUDNSZUdMR3N6NHRUcDFVMF9jQWdzcFcwOXNVMWs2UDdRMDR3cldzb0dIN0lpZ0c2SEtNUzhzNFZaVW1SbVVkT1p2LTNnN1ByREZZRzItMHlUYmFvQQ?oc=5"
+      },
+      {
+        "title": "Best Chinese Stocks To Buy And Watch: Track The Latest China Stock News - Investor's Business Daily",
+        "pubDate": "Fri, 10 Apr 2026 16:54:00 GMT",
+        "source": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xb0Q2UnVEMWdJTlo4ZUd5dTUzQ3p2eUdxdlB1MlE5LUxsU1VkdFpKQ2F6alh6R1ZsLU9KbURjZWRkN2djRGVsRElrbDFxcW1JNkFHZkMyZU01cHR1Smp2ZU1CdTNuNFBLS0V6Uk9LUXZKWjRXLVZV?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "China Stocks Rebound Despite Mideast Woes - TradingView — Track All Markets",
+        "pubDate": "Tue, 07 Apr 2026 03:02:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaU1Dem4zQktLV0pfVGJOeEdfRjVCNmZjc1JhUGxON1V0R3VPY3VrRXlZMURMZTVUYUMwZGRwM2E2bXozSDdYenlEcXh0NVd6cE1CZS13cEJTZGR0Vzc2TUpLWnJtbzZreW1CY0lubzdnZ0xzdHdRVXhjS2ZLNEhFV091eHZJVjFiWHAzRkRyWmpndHZlTC1R?oc=5"
+      },
+      {
+        "title": "Iron ore price set for second weekly loss on high China stocks - KITCO",
+        "pubDate": "Mon, 06 Apr 2026 16:40:00 GMT",
+        "source": "KITCO",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY0JpaXlodkkzbGxoU3NleTBEME1Ra2FPWDZ0WDh2b3pPMmlieDFtUFVseWFBcEVBM3ZlbEtqOUd6QTFPN0prZm5GclFfVXNNSFFKN1Z5UmYzSHNwNGNoQ1JSa0pXYjNNb1Y5YVRzUnhDY1hwalc1ZnJBNEQ5WGNOend5bGhNUUNXcnlQbWthUWZqeU1DQVlQWUhQVE16VHVrUk9UYmRleURsUQ?oc=5"
+      },
+      {
+        "title": "Chipotle and Yum China Shares Skyrocket, What You Need To Know - Yahoo Finance",
+        "pubDate": "Thu, 09 Apr 2026 01:17:00 GMT",
+        "source": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTkU5M1RkU2hQb1Njd1VZcUlaV2E4SDl5Y1Rla1pGQzl5NVN1QV8zYnZVWEx0aUhJTTNkRTViNUo3cjh4bkViZENhMkhwN2kxN0V5dXdTX3BjVk00RmlWSXIzV2x2NFVoWEJGaFdQa0lmYnozdDA2M1ZKUExHR2RiUUNobW9wV3JWdnlmTzRlbmpJS0N4SkhHdXhrSmtWcm5Qc1E?oc=5"
+      },
+      {
+        "title": "China Bank Stocks Emerge as Haven as Iran War Jolts Markets - Bloomberg.com",
+        "pubDate": "Tue, 07 Apr 2026 23:37:37 GMT",
+        "source": "Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa2hWMGhOVlBUaWNQNVlaWUtWeWwyaC05WXVraGdZS3FNbkRQWlBUTkQxWFdLdVMtOGpYeXo3cWVxOW1DcUp3cm5zUmdaTWtFQlNNeEx5Y1VnNTkzYzVBWHVCVEZXWm5WanU5anBtTm1wcy10dm5DUWVMVDRoWUtMeHBkcnRrVG9xREpYTFZNc0N4WnIyYVZlT21SUXFpa1lCRE51M0NoZGVUUVFwY2JB?oc=5"
+      },
+      {
+        "title": "China Stocks Rose On Holiday Spending And Policy Signals - Finimize",
+        "pubDate": "Tue, 07 Apr 2026 00:34:59 GMT",
+        "source": "Finimize",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQnFSSi1xaldfMFRxNHVKNEwxd1dKMzBzZ3NwUU9tZXAzcl90eXRzMnQ0S0xzNEd0TTBRcWRzaHotRXkwSEdmejVDSHRwMnlRTnEyRWhRRkk0UWRJYzc0RHVnNHNFR21nWVpVTUFZM0wwVWpCdXhGSVFVc21NdlFYejl1eTJ6VVBRT1BJZVRR?oc=5"
+      }
+    ],
+    "Hong Kong broker stocks": [
+      {
+        "title": "Hong Kong Stocks Close (April 10) | Hang Seng Index Rises 0.55%; Lithium Battery and Chinese Brokerage Stocks Surge, Guotai Junan International (01788) Soars by Up to 48% - Moomoo",
+        "pubDate": "Fri, 10 Apr 2026 08:56:27 GMT",
+        "source": "Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRG8wZDFwOTJwYi1uLWx1ZGRNd3JueTc5MHYzZU5aNVNwVllhVGNWRm8xS1lIakF0d2JnVTRFQnJ6TkZCa3J3X1FlUU1fR0paVVRlVXByTDJfSkhkN3V1bF9ycUxGcWtWTmZUZHUzc0ZqbXphc1ptOGVzUlMwUFpheVVwMTRGd201N0hsOGdteEN5bFRZTnhmYURiRQ?oc=5"
+      },
+      {
+        "title": "Yum China files annual report for 2025 with Hong Kong Stock Exchange - Investing.com",
+        "pubDate": "Wed, 08 Apr 2026 12:43:08 GMT",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeml3OXZ1M2RFTm1CWU0wVkFUR0ZsZEs3b3JDRks4Z21TaEpCbEo3c0o4QlRDNWJ1bkdZS1lPWU05b05hZTEtR2k2TkFpX2lEcGM3cFJfRVhuSS1qMmRYYUFZS05kTnVnSU05NFZER2lKMkNCYkp3LVRJbFJWWmJudm50TTdyRTJuOWZsX3c2c0JCdkx6N0doZFdmSVFRb3Y2MXhnd0Q5dl9Nb2ZjRjh4NS16MVlEdENJdjJUWXBzYzRXdw?oc=5"
+      },
+      {
+        "title": "Hong Kong Stock Market Movement | Leading Gains in Chinese Brokerage Stocks; CITIC Securities (06030) Reports Quarterly Profit Exceeding 10 Billion Yuan; Industry's Q1 Profit Outlook Remains Positive - 富途牛牛",
+        "pubDate": "Fri, 10 Apr 2026 01:47:07 GMT",
+        "source": "富途牛牛",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQODJXbl9NY2RXMTNRTHVjVU0wUHhvenE1WmpkaGkwR2NuWkZOdnB2ejJpUEhZZUlPN2lzVHR1X0JpUGkyeGFKQTVxeThTbHZ3R2xNLUxQdGdYNGVzRGFUcHAyNHkwajUwMEdVYTJjOUNwM0lZRlJjQlgwVkUyVlRBVUxkVVNXd0pzZUppZU9UMHpyc0dtdTg2NmlHVHVuZXZ6RDdfbjFsZ3dTVTg?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "TikTok's top star teased a $975 million deal and then went silent. Red flags are piling up. - Business Insider",
+        "pubDate": "Thu, 09 Apr 2026 09:05:00 GMT",
+        "source": "Business Insider",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2R5VjRocjVNdWRVRG5fR1A0ak1GMkpDR0J3akNXMXpGSlV5YnRiak8xc0JzQjVFeE9yWmhHM19rcHd6a1Y0LTJmeG5BRGowcmhEZzlpbFhqMUxRYnliekhJY2FabUpueWhNOVB1M29EdDJTMXNRTWxCb2h6NXdqRGNnaDgzYmM4akRseVotQlkxYlNJcGpiNHdXUHMwZDU0TVJYbQ?oc=5"
+      }
+    ],
+    "Hong Kong semiconductor stocks": [
+      {
+        "title": "Hong Kong Stock Market Midday Review: Hang Seng Index rose by 0.61%, financial and semiconductor stocks surged! Changfei Optical Fiber plummeted 10% on profit-taking. - 富途牛牛",
+        "pubDate": "Fri, 10 Apr 2026 04:03:10 GMT",
+        "source": "富途牛牛",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORmZsMHgtYUtWM1lvenhZM2VLU05tQU1QVmNGWmdCd3VvX2I4Q2FMd3NOXzQtWXRXZ3dYY3NTei1ZVTU2M08yOGlRcFRXMzNJYW1iOWJJbWpfUXpmc3lwQmhMZ1JleWhOb09JXzFfNVV4ZFdxMUFoVmM4RUFzSkhWVGlsdlZCekJsdzh1ZU16YTFFRVVsQ1Y3XzNoeEl4TEE?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Edge Higher - TradingView — Track All Markets",
+        "pubDate": "Fri, 10 Apr 2026 02:10:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcklNb1Vud2RWa0Fmc19yWTM3ejY2R2xQQUVrdWhlV2szX0FOeXlpa0FVd1NMQy1nZGdjX0pCWTM4ZW9McGVhbERJbjgwV3ZWUnoydjZPWi00TXFOUDZRX3RNbnJCaS15QWF5ekVCYmVBTW1GRk9ZMDJUamhNQlJwOGZSdkswUQ?oc=5"
+      },
+      {
+        "title": "Hua Hong Semiconductor Sets 2026 AGM to Approve Results, Payout and Share Mandates - TipRanks",
+        "pubDate": "Thu, 09 Apr 2026 10:12:24 GMT",
+        "source": "TipRanks",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbGp2R0RyMEFiYjRJV2NGazNacFRySjdSZDNmVWhJZWhKLW5nUERVM1I1dlF3X1Vod2NMRU1ncDBhTl9BY1dRSEJyZF91V1psYUtmVjlXY2hxeF82NnNWQlQyckRsUl9mb0hIQ3FJRi1MalNCa2ZHekpBcWpEUkI0cWpPYzBQN0NKREJIYmRhVjFrU3lFYTh6bENpa0xMMU9OdUUwOU9JUkViZElNMFN3RkZqRm4waGFfMTVjaGNVZGI5SmZQYkVzVnRrT2Q0QQ?oc=5"
+      },
+      {
+        "title": "China Unicom (Hong Kong) (0762) Receives a Buy from Jefferies - The Globe and Mail",
+        "pubDate": "Mon, 06 Apr 2026 12:30:00 GMT",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOem13RExsNWtweUNTWF9JdXNWR0NMWEhkVWRMNHlsdjBwNURpTzQ3bGNBVEhzRlJpQTNPazBEc3RrMmotM3VVajVoVi0zYUo3ZmNCWW1vbnlCZzA5dnVsVS1sdEpldkFub0dTQk13enRtQVI4XzB4ak92dXJPYUNfOEIwVXFVNWVGdk9IVEZHODc4VGlwU3htSEFJbHRrWHRHWFg1Q2pwTHB2cnAyaTVtVlUxOHI5eFdvOExWaFhick5GV2R4V0ZOYTQ4UWJEOHJFQTdWRQ?oc=5"
+      }
+    ]
+  },
+  "reddit": [
+    {
+      "subreddit": "stocks",
+      "items": [
+        {
+          "title": "Rate My Portfolio - r/Stocks Quarterly Thread March 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-03-01T10:00:44+00:00",
+          "link": ""
+        },
+        {
+          "title": "/r/Stocks Weekend Discussion Saturday - Apr 11, 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-11T09:31:26+00:00",
+          "link": ""
+        },
+        {
+          "title": "No deal on Iran...",
+          "author": "/u/Difficult-Quarter-48",
+          "updated": "2026-04-12T02:43:12+00:00",
+          "link": ""
+        },
+        {
+          "title": "The Iran Conflict Market Cycle",
+          "author": "/u/TorukMaktoM",
+          "updated": "2026-04-12T05:06:42+00:00",
+          "link": ""
+        },
+        {
+          "title": "UMich preliminary April consumer sentiment 47.6 versus 52.0 expected, worst ever on record",
+          "author": "/u/mastertofu",
+          "updated": "2026-04-12T03:06:39+00:00",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subreddit": "investing",
+      "items": [
+        {
+          "title": "Daily General Discussion and Advice Thread - April 12, 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-12T08:01:16+00:00",
+          "link": ""
+        },
+        {
+          "title": "Investing and Trading Scam Reminder",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-01T12:01:46+00:00",
+          "link": ""
+        },
+        {
+          "title": "South Korea is moving toward a major oil deal with Kazakhstan to reduce reliance on the Middle East",
+          "author": "/u/ObjectiveTreacle4548",
+          "updated": "2026-04-12T07:03:54+00:00",
+          "link": ""
+        },
+        {
+          "title": "Is adding bonds really lowering the risk?",
+          "author": "/u/777m0neymaker",
+          "updated": "2026-04-12T03:16:14+00:00",
+          "link": ""
+        },
+        {
+          "title": "NYT article on the divergence of oil futures and physical oil prices",
+          "author": "/u/Blueberryburntpie",
+          "updated": "2026-04-12T09:31:28+00:00",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subreddit": "SecurityAnalysis",
+      "items": [
+        {
+          "title": "2025 Analysis Questions and Discussions Thread",
+          "author": "/u/Beren-",
+          "updated": "2025-01-16T10:11:22+00:00",
+          "link": ""
+        },
+        {
+          "title": "Q4 2025 Letters & Reports",
+          "author": "/u/Beren-",
+          "updated": "2026-01-08T15:01:33+00:00",
+          "link": ""
+        },
+        {
+          "title": "Deep Dive: Intel Corp (INTC)",
+          "author": "/u/investorinvestor",
+          "updated": "2026-04-12T07:05:57+00:00",
+          "link": ""
+        },
+        {
+          "title": "NVDA: Unit Economics",
+          "author": "/u/unnoticeable84",
+          "updated": "2026-04-11T20:33:46+00:00",
+          "link": ""
+        },
+        {
+          "title": "Is Intel Still Investable At $60?",
+          "author": "/u/investorinvestor",
+          "updated": "2026-04-11T14:36:33+00:00",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ const els = {
 const DOC_LABELS = {
   report: '主報告',
   autoReport: '自動摘要',
+  patreon: 'Patreon 長文',
   telegram: 'Telegram',
   threads: 'Threads',
   discord: 'Discord',
@@ -44,7 +45,7 @@ function buildDocOptions(report) {
     { key: 'report', label: DOC_LABELS.report, path: report.reportPath },
   ];
   if (report.autoReportPath) docs.push({ key: 'autoReport', label: DOC_LABELS.autoReport, path: report.autoReportPath });
-  for (const key of ['telegram', 'threads', 'discord']) {
+  for (const key of ['patreon', 'telegram', 'threads', 'discord']) {
     if (report.posts?.[key]) docs.push({ key, label: DOC_LABELS[key], path: report.posts[key] });
   }
   return docs;
