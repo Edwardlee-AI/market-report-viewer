@@ -15,7 +15,8 @@
       "charts": {
         "README": "content/charts/2026-04-12/README.md",
         "breadth-daily": "content/charts/2026-04-12/breadth-daily.png",
-        "breadth-sector-leaderboard": "content/charts/2026-04-12/breadth-sector-leaderboard.png"
+        "breadth-sector-leaderboard": "content/charts/2026-04-12/breadth-sector-leaderboard.png",
+        "sector-turnover-leaderboard": "content/charts/2026-04-12/sector-turnover-leaderboard.png"
       }
     },
     {

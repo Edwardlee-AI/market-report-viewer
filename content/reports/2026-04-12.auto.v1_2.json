@@ -33,7 +33,7 @@
     "top_gainers_all": [
       {
         "symbol": "08321.HK",
-        "name": "泰锦控股",
+        "name": "泰錦控股",
         "sector": "Industrial Services",
         "industry": "Engineering & Construction",
         "weekly_return_pct": 55.63,
@@ -51,7 +51,7 @@
       },
       {
         "symbol": "01643.HK",
-        "name": "现代中药集团",
+        "name": "現代中藥集團",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": 50.25,
@@ -69,7 +69,7 @@
       },
       {
         "symbol": "02650.HK",
-        "name": NaN,
+        "name": "nan",
         "sector": "Producer Manufacturing",
         "industry": "Auto Parts: OEM",
         "weekly_return_pct": 40.3,
@@ -78,7 +78,7 @@
       },
       {
         "symbol": "09903.HK",
-        "name": "天数智芯",
+        "name": "天數智芯",
         "sector": "Electronic Technology",
         "industry": "Semiconductors",
         "weekly_return_pct": 35.92,
@@ -87,7 +87,7 @@
       },
       {
         "symbol": "01788.HK",
-        "name": "国泰君安国际",
+        "name": "國泰君安國際",
         "sector": "Finance",
         "industry": "Investment Managers",
         "weekly_return_pct": 32.05,
@@ -105,7 +105,7 @@
       },
       {
         "symbol": "02205.HK",
-        "name": "康桥悦生活",
+        "name": "康橋悅生活",
         "sector": "Finance",
         "industry": "Real Estate Development",
         "weekly_return_pct": 25.49,
@@ -114,7 +114,7 @@
       },
       {
         "symbol": "00951.HK",
-        "name": "超威动力",
+        "name": "超威動力",
         "sector": "Producer Manufacturing",
         "industry": "Auto Parts: OEM",
         "weekly_return_pct": 24.82,
@@ -123,7 +123,7 @@
       },
       {
         "symbol": "06609.HK",
-        "name": "心玮医疗－Ｂ",
+        "name": "心瑋醫療－Ｂ",
         "sector": "Health Technology",
         "industry": "Medical Specialties",
         "weekly_return_pct": 22.76,
@@ -132,7 +132,7 @@
       },
       {
         "symbol": "09876.HK",
-        "name": "大洋环球控股",
+        "name": "大洋環球控股",
         "sector": "Distribution Services",
         "industry": "Food Distributors",
         "weekly_return_pct": 22.03,
@@ -143,7 +143,7 @@
     "top_losers_all": [
       {
         "symbol": "00905.HK",
-        "name": "胡桃资本",
+        "name": "胡桃資本",
         "sector": "Finance",
         "industry": "Financial Conglomerates",
         "weekly_return_pct": -67.48,
@@ -170,7 +170,7 @@
       },
       {
         "symbol": "01645.HK",
-        "name": "海纳智能",
+        "name": "海納智能",
         "sector": "Producer Manufacturing",
         "industry": "Industrial Machinery",
         "weekly_return_pct": -30.34,
@@ -179,7 +179,7 @@
       },
       {
         "symbol": "01471.HK",
-        "name": "众淼控股",
+        "name": "衆淼控股",
         "sector": "Finance",
         "industry": "Insurance Brokers/Services",
         "weekly_return_pct": -27.25,
@@ -188,7 +188,7 @@
       },
       {
         "symbol": "02597.HK",
-        "name": "讯众通信",
+        "name": "訊衆通信",
         "sector": "Technology Services",
         "industry": "Data Processing Services",
         "weekly_return_pct": -22.08,
@@ -215,7 +215,7 @@
       },
       {
         "symbol": "02469.HK",
-        "name": "粉笔",
+        "name": "粉筆",
         "sector": "Commercial Services",
         "industry": "Miscellaneous Commercial Services",
         "weekly_return_pct": -15.18,
@@ -224,7 +224,7 @@
       },
       {
         "symbol": "06959.HK",
-        "name": "长久股份",
+        "name": "長久股份",
         "sector": "Retail Trade",
         "industry": "Specialty Stores",
         "weekly_return_pct": -14.29,
@@ -233,7 +233,7 @@
       },
       {
         "symbol": "02565.HK",
-        "name": "派格生物医药－Ｂ",
+        "name": "派格生物醫藥－Ｂ",
         "sector": "Health Technology",
         "industry": "Biotechnology",
         "weekly_return_pct": -14.2,
@@ -242,7 +242,7 @@
       },
       {
         "symbol": "03669.HK",
-        "name": "永达汽车",
+        "name": "永達汽車",
         "sector": "Retail Trade",
         "industry": "Specialty Stores",
         "weekly_return_pct": -11.94,
@@ -262,7 +262,7 @@
       },
       {
         "symbol": "00700.HK",
-        "name": "腾讯控股",
+        "name": "騰訊控股",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 1.59,
@@ -271,7 +271,7 @@
       },
       {
         "symbol": "01810.HK",
-        "name": "小米集团－Ｗ",
+        "name": "小米集團－Ｗ",
         "sector": "Electronic Technology",
         "industry": "Telecommunications Equipment",
         "weekly_return_pct": -3.5,
@@ -280,7 +280,7 @@
       },
       {
         "symbol": "06869.HK",
-        "name": "长飞光纤光缆",
+        "name": "長飛光纖光纜",
         "sector": "Electronic Technology",
         "industry": "Telecommunications Equipment",
         "weekly_return_pct": 19.63,
@@ -289,7 +289,7 @@
       },
       {
         "symbol": "00883.HK",
-        "name": "中国海洋石油",
+        "name": "中國海洋石油",
         "sector": "Energy Minerals",
         "industry": "Integrated Oil",
         "weekly_return_pct": -1.63,
@@ -298,7 +298,7 @@
       },
       {
         "symbol": "03690.HK",
-        "name": "美团－Ｗ",
+        "name": "美團－Ｗ",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 6.89,
@@ -307,7 +307,7 @@
       },
       {
         "symbol": "00981.HK",
-        "name": "中芯国际",
+        "name": "中芯國際",
         "sector": "Electronic Technology",
         "industry": "Semiconductors",
         "weekly_return_pct": 10.22,
@@ -316,7 +316,7 @@
       },
       {
         "symbol": "09992.HK",
-        "name": "泡泡玛特",
+        "name": "泡泡瑪特",
         "sector": "Consumer Services",
         "industry": "Movies/Entertainment",
         "weekly_return_pct": 3.85,
@@ -325,7 +325,7 @@
       },
       {
         "symbol": "01211.HK",
-        "name": "比亚迪股份",
+        "name": "比亞迪股份",
         "sector": "Producer Manufacturing",
         "industry": "Electrical Products",
         "weekly_return_pct": 0.38,
@@ -334,7 +334,7 @@
       },
       {
         "symbol": "00005.HK",
-        "name": "汇丰控股",
+        "name": "滙豐控股",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 7.21,
@@ -343,7 +343,7 @@
       },
       {
         "symbol": "00175.HK",
-        "name": "吉利汽车",
+        "name": "吉利汽車",
         "sector": "Consumer Durables",
         "industry": "Motor Vehicles",
         "weekly_return_pct": 13.65,
@@ -352,7 +352,7 @@
       },
       {
         "symbol": "02513.HK",
-        "name": "智谱",
+        "name": "智譜",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 2.3,
@@ -370,7 +370,7 @@
       },
       {
         "symbol": "02318.HK",
-        "name": "中国平安",
+        "name": "中國平安",
         "sector": "Finance",
         "industry": "Multi-Line Insurance",
         "weekly_return_pct": 3.55,
@@ -379,7 +379,7 @@
       },
       {
         "symbol": "02899.HK",
-        "name": "紫金矿业",
+        "name": "紫金礦業",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": 0.22,
@@ -388,7 +388,7 @@
       },
       {
         "symbol": "01299.HK",
-        "name": "友邦保险",
+        "name": "友邦保險",
         "sector": "Finance",
         "industry": "Multi-Line Insurance",
         "weekly_return_pct": 1.66,
@@ -406,7 +406,7 @@
       },
       {
         "symbol": "00939.HK",
-        "name": "建设银行",
+        "name": "建設銀行",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 0.48,
@@ -415,7 +415,7 @@
       },
       {
         "symbol": "01347.HK",
-        "name": "华虹半导体",
+        "name": "華虹半導體",
         "sector": "Electronic Technology",
         "industry": "Semiconductors",
         "weekly_return_pct": 9.98,
@@ -433,7 +433,7 @@
       },
       {
         "symbol": "00568.HK",
-        "name": "山东墨龙",
+        "name": "山東墨龍",
         "sector": "Industrial Services",
         "industry": "Oilfield Services/Equipment",
         "weekly_return_pct": 7.18,
@@ -442,7 +442,7 @@
       },
       {
         "symbol": "01378.HK",
-        "name": "中国宏桥",
+        "name": "中國宏橋",
         "sector": "Non-Energy Minerals",
         "industry": "Aluminum",
         "weekly_return_pct": 5.5,
@@ -451,7 +451,7 @@
       },
       {
         "symbol": "02628.HK",
-        "name": "中国人寿",
+        "name": "中國人壽",
         "sector": "Finance",
         "industry": "Multi-Line Insurance",
         "weekly_return_pct": 7.78,
@@ -460,7 +460,7 @@
       },
       {
         "symbol": "02259.HK",
-        "name": "紫金黄金国际",
+        "name": "紫金黃金國際",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": 0.49,
@@ -469,7 +469,7 @@
       },
       {
         "symbol": "01398.HK",
-        "name": "工商银行",
+        "name": "工商銀行",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 1.31,
@@ -478,7 +478,7 @@
       },
       {
         "symbol": "03750.HK",
-        "name": "宁德时代",
+        "name": "寧德時代",
         "sector": "Producer Manufacturing",
         "industry": "Electrical Products",
         "weekly_return_pct": 7.75,
@@ -487,7 +487,7 @@
       },
       {
         "symbol": "00857.HK",
-        "name": "中国石油股份",
+        "name": "中國石油股份",
         "sector": "Energy Minerals",
         "industry": "Integrated Oil",
         "weekly_return_pct": 2.37,
@@ -496,7 +496,7 @@
       },
       {
         "symbol": "01801.HK",
-        "name": "信达生物",
+        "name": "信達生物",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": -2.64,
@@ -505,7 +505,7 @@
       },
       {
         "symbol": "02382.HK",
-        "name": "舜宇光学科技",
+        "name": "舜宇光學科技",
         "sector": "Electronic Technology",
         "industry": "Electronic Components",
         "weekly_return_pct": 10.27,
@@ -514,7 +514,7 @@
       },
       {
         "symbol": "03988.HK",
-        "name": "中国银行",
+        "name": "中國銀行",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 0.6,
@@ -532,7 +532,7 @@
       },
       {
         "symbol": "01530.HK",
-        "name": "三生制药",
+        "name": "三生製藥",
         "sector": "Health Technology",
         "industry": "Biotechnology",
         "weekly_return_pct": -9.32,
@@ -541,7 +541,7 @@
       },
       {
         "symbol": "03993.HK",
-        "name": "洛阳钼业",
+        "name": "洛陽鉬業",
         "sector": "Distribution Services",
         "industry": "Wholesale Distributors",
         "weekly_return_pct": 5.73,
@@ -550,7 +550,7 @@
       },
       {
         "symbol": "00941.HK",
-        "name": "中国移动",
+        "name": "中國移動",
         "sector": "Communications",
         "industry": "Specialty Telecommunications",
         "weekly_return_pct": 1.63,
@@ -559,7 +559,7 @@
       },
       {
         "symbol": "03808.HK",
-        "name": "中国重汽",
+        "name": "中國重汽",
         "sector": "Producer Manufacturing",
         "industry": "Trucks/Construction/Farm Machinery",
         "weekly_return_pct": 5.03,
@@ -568,7 +568,7 @@
       },
       {
         "symbol": "01788.HK",
-        "name": "国泰君安国际",
+        "name": "國泰君安國際",
         "sector": "Finance",
         "industry": "Investment Managers",
         "weekly_return_pct": 32.05,
@@ -577,7 +577,7 @@
       },
       {
         "symbol": "09888.HK",
-        "name": "百度集团－ＳＷ",
+        "name": "百度集團－ＳＷ",
         "sector": "Technology Services",
         "industry": "Internet Software/Services",
         "weekly_return_pct": -0.91,
@@ -586,7 +586,7 @@
       },
       {
         "symbol": "09880.HK",
-        "name": "优必选",
+        "name": "優必選",
         "sector": "Producer Manufacturing",
         "industry": "Industrial Machinery",
         "weekly_return_pct": 8.9,
@@ -595,7 +595,7 @@
       },
       {
         "symbol": "01772.HK",
-        "name": "赣锋锂业",
+        "name": "贛鋒鋰業",
         "sector": "Process Industries",
         "industry": "Chemicals: Specialty",
         "weekly_return_pct": 13.17,
@@ -604,7 +604,7 @@
       },
       {
         "symbol": "02269.HK",
-        "name": "药明生物",
+        "name": "藥明生物",
         "sector": "Health Technology",
         "industry": "Biotechnology",
         "weekly_return_pct": 2.98,
@@ -613,7 +613,7 @@
       },
       {
         "symbol": "02020.HK",
-        "name": "安踏体育",
+        "name": "安踏體育",
         "sector": "Consumer Non-Durables",
         "industry": "Apparel/Footwear",
         "weekly_return_pct": 7.5,
@@ -622,7 +622,7 @@
       },
       {
         "symbol": "09618.HK",
-        "name": "京东集团－ＳＷ",
+        "name": "京東集團－ＳＷ",
         "sector": "Retail Trade",
         "industry": "Internet Retail",
         "weekly_return_pct": -1.33,
@@ -631,7 +631,7 @@
       },
       {
         "symbol": "09868.HK",
-        "name": "小鹏汽车－Ｗ",
+        "name": "小鵬汽車－Ｗ",
         "sector": "Consumer Durables",
         "industry": "Motor Vehicles",
         "weekly_return_pct": -1.83,
@@ -640,7 +640,7 @@
       },
       {
         "symbol": "00992.HK",
-        "name": "联想集团",
+        "name": "聯想集團",
         "sector": "Electronic Technology",
         "industry": "Computer Processing Hardware",
         "weekly_return_pct": 6.42,
@@ -649,7 +649,7 @@
       },
       {
         "symbol": "06160.HK",
-        "name": "百济神州",
+        "name": "百濟神州",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": 2.22,
@@ -658,7 +658,7 @@
       },
       {
         "symbol": "09999.HK",
-        "name": "网易－Ｓ",
+        "name": "網易－Ｓ",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 1.31,
@@ -667,7 +667,7 @@
       },
       {
         "symbol": "01093.HK",
-        "name": "石药集团",
+        "name": "石藥集團",
         "sector": "Health Technology",
         "industry": "Biotechnology",
         "weekly_return_pct": -3.74,
@@ -676,7 +676,7 @@
       },
       {
         "symbol": "09660.HK",
-        "name": "地平线机器人－Ｗ",
+        "name": "地平線機器人－Ｗ",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 3.91,
@@ -685,7 +685,7 @@
       },
       {
         "symbol": "02338.HK",
-        "name": "潍柴动力",
+        "name": "濰柴動力",
         "sector": "Producer Manufacturing",
         "industry": "Auto Parts: OEM",
         "weekly_return_pct": 12.89,
@@ -694,7 +694,7 @@
       },
       {
         "symbol": "00016.HK",
-        "name": "新鸿基地产",
+        "name": "新鴻基地產",
         "sector": "Finance",
         "industry": "Real Estate Development",
         "weekly_return_pct": 3.05,
@@ -703,7 +703,7 @@
       },
       {
         "symbol": "09863.HK",
-        "name": "零跑汽车",
+        "name": "零跑汽車",
         "sector": "Consumer Durables",
         "industry": "Motor Vehicles",
         "weekly_return_pct": 7.02,
@@ -712,7 +712,7 @@
       },
       {
         "symbol": "02015.HK",
-        "name": "理想汽车－Ｗ",
+        "name": "理想汽車－Ｗ",
         "sector": "Consumer Durables",
         "industry": "Motor Vehicles",
         "weekly_return_pct": 4.21,
@@ -721,7 +721,7 @@
       },
       {
         "symbol": "01428.HK",
-        "name": "耀才证券金融",
+        "name": "耀才證券金融",
         "sector": "Finance",
         "industry": "Investment Banks/Brokers",
         "weekly_return_pct": 7.59,
@@ -730,7 +730,7 @@
       },
       {
         "symbol": "00020.HK",
-        "name": "商汤－Ｗ",
+        "name": "商湯－Ｗ",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 6.35,
@@ -739,7 +739,7 @@
       },
       {
         "symbol": "09995.HK",
-        "name": "荣昌生物",
+        "name": "榮昌生物",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": -3.99,
@@ -748,7 +748,7 @@
       },
       {
         "symbol": "01088.HK",
-        "name": "中国神华",
+        "name": "中國神華",
         "sector": "Energy Minerals",
         "industry": "Coal",
         "weekly_return_pct": -2.81,
@@ -757,7 +757,7 @@
       },
       {
         "symbol": "01171.HK",
-        "name": "兖矿能源",
+        "name": "兗礦能源",
         "sector": "Energy Minerals",
         "industry": "Coal",
         "weekly_return_pct": 0.85,
@@ -766,7 +766,7 @@
       },
       {
         "symbol": "06181.HK",
-        "name": "老铺黄金",
+        "name": "老鋪黃金",
         "sector": "Consumer Durables",
         "industry": "Other Consumer Specialties",
         "weekly_return_pct": 0.54,
@@ -775,7 +775,7 @@
       },
       {
         "symbol": "03896.HK",
-        "name": "金山云",
+        "name": "金山雲",
         "sector": "Technology Services",
         "industry": "Data Processing Services",
         "weekly_return_pct": 7.16,
@@ -784,7 +784,7 @@
       },
       {
         "symbol": "00386.HK",
-        "name": "中国石油化工股份",
+        "name": "中國石油化工股份",
         "sector": "Energy Minerals",
         "industry": "Integrated Oil",
         "weekly_return_pct": 1.09,
@@ -793,7 +793,7 @@
       },
       {
         "symbol": "01138.HK",
-        "name": "中远海能",
+        "name": "中遠海能",
         "sector": "Transportation",
         "industry": "Marine Shipping",
         "weekly_return_pct": 1.77,
@@ -811,7 +811,7 @@
       },
       {
         "symbol": "09961.HK",
-        "name": "携程集团－Ｓ",
+        "name": "攜程集團－Ｓ",
         "sector": "Consumer Services",
         "industry": "Other Consumer Services",
         "weekly_return_pct": 1.78,
@@ -820,7 +820,7 @@
       },
       {
         "symbol": "00669.HK",
-        "name": "创科实业",
+        "name": "創科實業",
         "sector": "Consumer Durables",
         "industry": "Tools & Hardware",
         "weekly_return_pct": 6.13,
@@ -829,7 +829,7 @@
       },
       {
         "symbol": "03986.HK",
-        "name": "兆易创新",
+        "name": "兆易創新",
         "sector": "Electronic Technology",
         "industry": "Semiconductors",
         "weekly_return_pct": 7.16,
@@ -838,7 +838,7 @@
       },
       {
         "symbol": "03968.HK",
-        "name": "招商银行",
+        "name": "招商銀行",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 1.79,
@@ -847,7 +847,7 @@
       },
       {
         "symbol": "02600.HK",
-        "name": "中国铝业",
+        "name": "中國鋁業",
         "sector": "Distribution Services",
         "industry": "Wholesale Distributors",
         "weekly_return_pct": 6.06,
@@ -856,7 +856,7 @@
       },
       {
         "symbol": "01177.HK",
-        "name": "中国生物制药",
+        "name": "中國生物製藥",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": -6.92,
@@ -865,7 +865,7 @@
       },
       {
         "symbol": "02359.HK",
-        "name": "药明康德",
+        "name": "藥明康德",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": 4.68,
@@ -874,7 +874,7 @@
       },
       {
         "symbol": "09626.HK",
-        "name": "哔哩哔哩－Ｗ",
+        "name": "嗶哩嗶哩－Ｗ",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": 0.82,
@@ -883,7 +883,7 @@
       },
       {
         "symbol": "01276.HK",
-        "name": "恒瑞医药",
+        "name": "恆瑞醫藥",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": 0.9,
@@ -892,7 +892,7 @@
       },
       {
         "symbol": "03330.HK",
-        "name": "灵宝黄金（一百）",
+        "name": "靈寶黃金（一百）",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": -2.81,
@@ -901,7 +901,7 @@
       },
       {
         "symbol": "03692.HK",
-        "name": "翰森制药",
+        "name": "翰森製藥",
         "sector": "Health Technology",
         "industry": "Pharmaceuticals: Major",
         "weekly_return_pct": 3.58,
@@ -919,7 +919,7 @@
       },
       {
         "symbol": "01072.HK",
-        "name": "东方电气",
+        "name": "東方電氣",
         "sector": "Producer Manufacturing",
         "industry": "Electrical Products",
         "weekly_return_pct": 5.89,
@@ -937,7 +937,7 @@
       },
       {
         "symbol": "02388.HK",
-        "name": "中银香港",
+        "name": "中銀香港",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 1.55,
@@ -946,7 +946,7 @@
       },
       {
         "symbol": "01787.HK",
-        "name": "山东黄金",
+        "name": "山東黃金",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": 2.32,
@@ -955,7 +955,7 @@
       },
       {
         "symbol": "01336.HK",
-        "name": "新华保险",
+        "name": "新華保險",
         "sector": "Finance",
         "industry": "Multi-Line Insurance",
         "weekly_return_pct": 1.41,
@@ -964,7 +964,7 @@
       },
       {
         "symbol": "01818.HK",
-        "name": "招金矿业",
+        "name": "招金礦業",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": 1.87,
@@ -973,7 +973,7 @@
       },
       {
         "symbol": "02328.HK",
-        "name": "中国财险",
+        "name": "中國財險",
         "sector": "Finance",
         "industry": "Property/Casualty Insurance",
         "weekly_return_pct": 1.23,
@@ -982,7 +982,7 @@
       },
       {
         "symbol": "03858.HK",
-        "name": "佳鑫国际资源",
+        "name": "佳鑫國際資源",
         "sector": "Non-Energy Minerals",
         "industry": "Other Metals/Minerals",
         "weekly_return_pct": 2.02,
@@ -1000,7 +1000,7 @@
       },
       {
         "symbol": "01729.HK",
-        "name": "汇聚科技",
+        "name": "匯聚科技",
         "sector": "Producer Manufacturing",
         "industry": "Electrical Products",
         "weekly_return_pct": 21.06,
@@ -1009,7 +1009,7 @@
       },
       {
         "symbol": "06693.HK",
-        "name": "赤峰黄金",
+        "name": "赤峯黃金",
         "sector": "Non-Energy Minerals",
         "industry": "Precious Metals",
         "weekly_return_pct": -4.84,
@@ -1018,7 +1018,7 @@
       },
       {
         "symbol": "02601.HK",
-        "name": "中国太保",
+        "name": "中國太保",
         "sector": "Finance",
         "industry": "Multi-Line Insurance",
         "weekly_return_pct": 2.87,
@@ -1027,7 +1027,7 @@
       },
       {
         "symbol": "06030.HK",
-        "name": "中信证券",
+        "name": "中信證券",
         "sector": "Finance",
         "industry": "Investment Banks/Brokers",
         "weekly_return_pct": 10.52,
@@ -1045,7 +1045,7 @@
       },
       {
         "symbol": "01288.HK",
-        "name": "农业银行",
+        "name": "農業銀行",
         "sector": "Finance",
         "industry": "Major Banks",
         "weekly_return_pct": 3.76,
@@ -1054,7 +1054,7 @@
       },
       {
         "symbol": "00358.HK",
-        "name": "江西铜业股份",
+        "name": "江西銅業股份",
         "sector": "Non-Energy Minerals",
         "industry": "Other Metals/Minerals",
         "weekly_return_pct": 3.07,
@@ -1063,7 +1063,7 @@
       },
       {
         "symbol": "00001.HK",
-        "name": "长和",
+        "name": "長和",
         "sector": "Retail Trade",
         "industry": "Specialty Stores",
         "weekly_return_pct": 5.17,
@@ -1072,7 +1072,7 @@
       },
       {
         "symbol": "02423.HK",
-        "name": "贝壳－Ｗ",
+        "name": "貝殼－Ｗ",
         "sector": "Finance",
         "industry": "Real Estate Development",
         "weekly_return_pct": 4.75,
@@ -1081,7 +1081,7 @@
       },
       {
         "symbol": "02331.HK",
-        "name": "李宁",
+        "name": "李寧",
         "sector": "Consumer Non-Durables",
         "industry": "Apparel/Footwear",
         "weekly_return_pct": 5.89,
@@ -1090,7 +1090,7 @@
       },
       {
         "symbol": "06690.HK",
-        "name": "海尔智家",
+        "name": "海爾智家",
         "sector": "Consumer Durables",
         "industry": "Electronics/Appliances",
         "weekly_return_pct": 0.48,
@@ -1099,7 +1099,7 @@
       },
       {
         "symbol": "03939.HK",
-        "name": "万国黄金集团",
+        "name": "萬國黃金集團",
         "sector": "Non-Energy Minerals",
         "industry": "Other Metals/Minerals",
         "weekly_return_pct": -2.32,
@@ -1108,7 +1108,7 @@
       },
       {
         "symbol": "02057.HK",
-        "name": "中通快递－Ｗ",
+        "name": "中通快遞－Ｗ",
         "sector": "Transportation",
         "industry": "Air Freight/Couriers",
         "weekly_return_pct": -0.05,
@@ -1117,7 +1117,7 @@
       },
       {
         "symbol": "01109.HK",
-        "name": "华润置地",
+        "name": "華潤置地",
         "sector": "Finance",
         "industry": "Real Estate Development",
         "weekly_return_pct": 0.89,
@@ -1126,7 +1126,7 @@
       },
       {
         "symbol": "00288.HK",
-        "name": "万洲国际",
+        "name": "萬洲國際",
         "sector": "Consumer Non-Durables",
         "industry": "Food: Meat/Fish/Dairy",
         "weekly_return_pct": 3.54,
@@ -1135,7 +1135,7 @@
       },
       {
         "symbol": "00268.HK",
-        "name": "金蝶国际",
+        "name": "金蝶國際",
         "sector": "Technology Services",
         "industry": "Packaged Software",
         "weekly_return_pct": -3.28,
@@ -1144,7 +1144,7 @@
       },
       {
         "symbol": "01519.HK",
-        "name": "极兔速递－Ｗ",
+        "name": "極兔速遞－Ｗ",
         "sector": "Transportation",
         "industry": "Air Freight/Couriers",
         "weekly_return_pct": 9.8,
@@ -1200,7 +1200,7 @@
         "median_return_pct": 4.54,
         "weekly_amount_b": 75.17,
         "leader_symbol": "01211.HK",
-        "leader_name": "比亚迪股份",
+        "leader_name": "比亞迪股份",
         "leader_return_pct": 0.38
       },
       {
@@ -1212,7 +1212,7 @@
         "median_return_pct": 4.2,
         "weekly_amount_b": 132.95,
         "leader_symbol": "01810.HK",
-        "leader_name": "小米集团－Ｗ",
+        "leader_name": "小米集團－Ｗ",
         "leader_return_pct": -3.5
       },
       {
@@ -1224,7 +1224,7 @@
         "median_return_pct": 2.93,
         "weekly_amount_b": 14.54,
         "leader_symbol": "01772.HK",
-        "leader_name": "赣锋锂业",
+        "leader_name": "贛鋒鋰業",
         "leader_return_pct": 13.17
       },
       {
@@ -1236,7 +1236,7 @@
         "median_return_pct": 1.64,
         "weekly_amount_b": 14.4,
         "leader_symbol": "00568.HK",
-        "leader_name": "山东墨龙",
+        "leader_name": "山東墨龍",
         "leader_return_pct": 7.18
       },
       {
@@ -1248,7 +1248,7 @@
         "median_return_pct": 2.33,
         "weekly_amount_b": 57.16,
         "leader_symbol": "00175.HK",
-        "leader_name": "吉利汽车",
+        "leader_name": "吉利汽車",
         "leader_return_pct": 13.65
       },
       {
@@ -1260,7 +1260,7 @@
         "median_return_pct": 2.12,
         "weekly_amount_b": 20.78,
         "leader_symbol": "01138.HK",
-        "leader_name": "中远海能",
+        "leader_name": "中遠海能",
         "leader_return_pct": 1.77
       },
       {
@@ -1272,7 +1272,7 @@
         "median_return_pct": 2.29,
         "weekly_amount_b": 160.8,
         "leader_symbol": "00005.HK",
-        "leader_name": "汇丰控股",
+        "leader_name": "滙豐控股",
         "leader_return_pct": 7.21
       },
       {
@@ -1284,7 +1284,7 @@
         "median_return_pct": 1.56,
         "weekly_amount_b": 56.88,
         "leader_symbol": "02899.HK",
-        "leader_name": "紫金矿业",
+        "leader_name": "紫金礦業",
         "leader_return_pct": 0.22
       },
       {
@@ -1296,7 +1296,7 @@
         "median_return_pct": 0.27,
         "weekly_amount_b": 96.62,
         "leader_symbol": "01801.HK",
-        "leader_name": "信达生物",
+        "leader_name": "信達生物",
         "leader_return_pct": -2.64
       },
       {
@@ -1308,7 +1308,7 @@
         "median_return_pct": 1.1,
         "weekly_amount_b": 9.42,
         "leader_symbol": "00941.HK",
-        "leader_name": "中国移动",
+        "leader_name": "中國移動",
         "leader_return_pct": 1.63
       },
       {
@@ -1320,7 +1320,7 @@
         "median_return_pct": 0.59,
         "weekly_amount_b": 157.88,
         "leader_symbol": "00700.HK",
-        "leader_name": "腾讯控股",
+        "leader_name": "騰訊控股",
         "leader_return_pct": 1.59
       },
       {
@@ -1332,7 +1332,7 @@
         "median_return_pct": 1.56,
         "weekly_amount_b": 30.24,
         "leader_symbol": "02020.HK",
-        "leader_name": "安踏体育",
+        "leader_name": "安踏體育",
         "leader_return_pct": 7.5
       }
     ],
@@ -1346,7 +1346,7 @@
         "median_return_pct": 8.54,
         "weekly_amount_b": 1.71,
         "leader_symbol": "00136.HK",
-        "leader_name": "中国儒意",
+        "leader_name": "中國儒意",
         "leader_return_pct": 9.52
       },
       {
@@ -1358,7 +1358,7 @@
         "median_return_pct": 4.85,
         "weekly_amount_b": 7.99,
         "leader_symbol": "02338.HK",
-        "leader_name": "潍柴动力",
+        "leader_name": "濰柴動力",
         "leader_return_pct": 12.89
       },
       {
@@ -1370,7 +1370,7 @@
         "median_return_pct": 6.61,
         "weekly_amount_b": 0.07,
         "leader_symbol": "00321.HK",
-        "leader_name": "德永佳集团",
+        "leader_name": "德永佳集團",
         "leader_return_pct": 6.61
       },
       {
@@ -1394,7 +1394,7 @@
         "median_return_pct": 3.45,
         "weekly_amount_b": 9.17,
         "leader_symbol": "01788.HK",
-        "leader_name": "国泰君安国际",
+        "leader_name": "國泰君安國際",
         "leader_return_pct": 32.05
       },
       {
@@ -1406,7 +1406,7 @@
         "median_return_pct": 5.38,
         "weekly_amount_b": 9.01,
         "leader_symbol": "03808.HK",
-        "leader_name": "中国重汽",
+        "leader_name": "中國重汽",
         "leader_return_pct": 5.03
       },
       {
@@ -1418,7 +1418,7 @@
         "median_return_pct": 5.47,
         "weekly_amount_b": 44.85,
         "leader_symbol": "00981.HK",
-        "leader_name": "中芯国际",
+        "leader_name": "中芯國際",
         "leader_return_pct": 10.22
       },
       {
@@ -1442,7 +1442,7 @@
         "median_return_pct": 5.71,
         "weekly_amount_b": 42.26,
         "leader_symbol": "01211.HK",
-        "leader_name": "比亚迪股份",
+        "leader_name": "比亞迪股份",
         "leader_return_pct": 0.38
       },
       {
@@ -1454,7 +1454,7 @@
         "median_return_pct": 4.02,
         "weekly_amount_b": 37.71,
         "leader_symbol": "00175.HK",
-        "leader_name": "吉利汽车",
+        "leader_name": "吉利汽車",
         "leader_return_pct": 13.65
       },
       {
@@ -1466,7 +1466,7 @@
         "median_return_pct": 3.53,
         "weekly_amount_b": 0.94,
         "leader_symbol": "01179.HK",
-        "leader_name": "华住集团－Ｓ",
+        "leader_name": "華住集團－Ｓ",
         "leader_return_pct": 5.52
       },
       {
@@ -1478,7 +1478,7 @@
         "median_return_pct": 1.94,
         "weekly_amount_b": 0.58,
         "leader_symbol": "00323.HK",
-        "leader_name": "马鞍山钢铁股份",
+        "leader_name": "馬鞍山鋼鐵股份",
         "leader_return_pct": 11.46
       }
     ],
@@ -1800,10 +1800,10 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
       },
       {
-        "title": "Alibaba stock plunges 3% after Jefferies cut: time to sell BABA? - TradingView — Track All Markets",
-        "pubDate": "Thu, 09 Apr 2026 04:49:00 GMT",
-        "source": "TradingView — Track All Markets",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTG44ZkU2bE5WY0gzbHR4ekdxNmhyN3NTc0JvRjhBX1A4RGw2WVVfak1rNmZLcXBLSkdNUTFMSzRlWkR4QW1nMDBJeFdGMWt5UUVuYmV5Q1VpWTFyM3NGeG5KcldfclRlNkFiemZaekhOX1ZmamJ1ZzlMU09kcW9FSU9OQ29uUUZ4QU5zVkZVblV5dkdPcnpHbmVYY25MVnRIYmMxdFYxRFVkXzhTOWp1UUJtWEJ4VE8wZHc?oc=5"
+        "title": "TikTok's top star teased a $975 million deal and then went silent. Red flags are piling up. - Business Insider",
+        "pubDate": "Thu, 09 Apr 2026 09:05:01 GMT",
+        "source": "Business Insider",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR2R5VjRocjVNdWRVRG5fR1A0ak1GMkpDR0J3akNXMXpGSlV5YnRiak8xc0JzQjVFeE9yWmhHM19rcHd6a1Y0LTJmeG5BRGowcmhEZzlpbFhqMUxRYnliekhJY2FabUpueWhNOVB1M29EdDJTMXNRTWxCb2h6NXdqRGNnaDgzYmM4akRseVotQlkxYlNJcGpiNHdXUHMwZDU0TVJYbQ?oc=5"
       }
     ],
     "Hong Kong semiconductor stocks": [
