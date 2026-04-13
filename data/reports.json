@@ -1,6 +1,35 @@
 {
   "reports": [
     {
+      "date": "2026-04-13",
+      "title": "市場報告 2026-04-13",
+      "reportPath": "content/reports/2026-04-13.md",
+      "autoReportPath": "content/reports/2026-04-13.auto.v1_2.md",
+      "autoJsonPath": "content/reports/2026-04-13.auto.v1_2.json",
+      "posts": {
+        "patreon": "content/posts/2026-04-13/patreon.md",
+        "telegram": "content/posts/2026-04-13/telegram.md",
+        "threads": "content/posts/2026-04-13/threads.md",
+        "discord": "content/posts/2026-04-13/discord.md"
+      },
+      "charts": {
+        "README": "content/charts/2026-04-13/README.md",
+        "breadth-daily": "content/charts/2026-04-13/breadth-daily.png",
+        "breadth-sector-leaderboard": "content/charts/2026-04-13/breadth-sector-leaderboard.png",
+        "next-week-focus-heat": "content/charts/2026-04-13/next-week-focus-heat.png",
+        "sector-turnover-leaderboard": "content/charts/2026-04-13/sector-turnover-leaderboard.png"
+      }
+    },
+    {
+      "date": "2026-04-13.auto.v1_2",
+      "title": "市場報告 2026-04-13.auto.v1_2",
+      "reportPath": "content/reports/2026-04-13.auto.v1_2.md",
+      "autoReportPath": null,
+      "autoJsonPath": null,
+      "posts": {},
+      "charts": {}
+    },
+    {
       "date": "2026-04-12",
       "title": "市場報告 2026-04-12",
       "reportPath": "content/reports/2026-04-12.md",
