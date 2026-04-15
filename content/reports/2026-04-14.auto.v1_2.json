@@ -1,0 +1,1949 @@
+{
+  "date": "2026-04-14",
+  "watchlist": [
+    "0700.HK",
+    "9988.HK",
+    "3690.HK",
+    "1810.HK",
+    "600519.SS",
+    "000333.SZ"
+  ],
+  "hk_market": {
+    "summary": {
+      "latest": "2026-04-13",
+      "week_dates": [
+        "2026-04-02",
+        "2026-04-08",
+        "2026-04-09",
+        "2026-04-10",
+        "2026-04-13"
+      ],
+      "universe_symbols": 1384,
+      "liquid_symbols_ge1": 1113,
+      "advancers": 798,
+      "decliners": 520,
+      "flat": 66,
+      "median_return": 0.97,
+      "mean_return": 1.86,
+      "gt5": 295,
+      "gt10": 117,
+      "ltm5": 127,
+      "ltm10": 38
+    },
+    "top_gainers_all": [
+      {
+        "symbol": "01384.HK",
+        "name": "滴普科技",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 142.82,
+        "weekly_amount_b": 8.12,
+        "end_close": 71.0
+      },
+      {
+        "symbol": "03317.HK",
+        "name": "迅策",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 80.55,
+        "weekly_amount_b": 11.05,
+        "end_close": 358.4
+      },
+      {
+        "symbol": "09903.HK",
+        "name": "天數智芯",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 61.24,
+        "weekly_amount_b": 2.28,
+        "end_close": 354.4
+      },
+      {
+        "symbol": "01643.HK",
+        "name": "現代中藥集團",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 46.27,
+        "weekly_amount_b": 0.03,
+        "end_close": 2.94
+      },
+      {
+        "symbol": "02650.HK",
+        "name": "nan",
+        "sector": "Producer Manufacturing",
+        "industry": "Auto Parts: OEM",
+        "weekly_return_pct": 45.07,
+        "weekly_amount_b": 0.45,
+        "end_close": 45.9
+      },
+      {
+        "symbol": "08321.HK",
+        "name": "泰錦控股",
+        "sector": "Industrial Services",
+        "industry": "Engineering & Construction",
+        "weekly_return_pct": 42.0,
+        "weekly_amount_b": 0.0,
+        "end_close": 2.13
+      },
+      {
+        "symbol": "06090.HK",
+        "name": "不同集團",
+        "sector": "Consumer Durables",
+        "industry": "Recreational Products",
+        "weekly_return_pct": 38.45,
+        "weekly_amount_b": 1.6,
+        "end_close": 49.98
+      },
+      {
+        "symbol": "02706.HK",
+        "name": "海致科技集團",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 35.04,
+        "weekly_amount_b": 0.56,
+        "end_close": 63.2
+      },
+      {
+        "symbol": "06651.HK",
+        "name": "五一視界",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 34.16,
+        "weekly_amount_b": 1.78,
+        "end_close": 48.62
+      },
+      {
+        "symbol": "06978.HK",
+        "name": "永泰生物－Ｂ",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 31.99,
+        "weekly_amount_b": 0.02,
+        "end_close": 3.59
+      },
+      {
+        "symbol": "01729.HK",
+        "name": "匯聚科技",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 29.0,
+        "weekly_amount_b": 2.66,
+        "end_close": 19.35
+      },
+      {
+        "symbol": "06960.HK",
+        "name": "雙登股份",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 28.17,
+        "weekly_amount_b": 0.06,
+        "end_close": 14.88
+      }
+    ],
+    "top_losers_all": [
+      {
+        "symbol": "00905.HK",
+        "name": "胡桃資本",
+        "sector": "Finance",
+        "industry": "Financial Conglomerates",
+        "weekly_return_pct": -72.5,
+        "weekly_amount_b": 0.12,
+        "end_close": 0.28
+      },
+      {
+        "symbol": "02656.HK",
+        "name": "健康１６０",
+        "sector": "Distribution Services",
+        "industry": "Medical Distributors",
+        "weekly_return_pct": -55.58,
+        "weekly_amount_b": 0.43,
+        "end_close": 44.42
+      },
+      {
+        "symbol": "01645.HK",
+        "name": "海納智能",
+        "sector": "Producer Manufacturing",
+        "industry": "Industrial Machinery",
+        "weekly_return_pct": -40.68,
+        "weekly_amount_b": 0.09,
+        "end_close": 2.1
+      },
+      {
+        "symbol": "01471.HK",
+        "name": "衆淼控股",
+        "sector": "Finance",
+        "industry": "Insurance Brokers/Services",
+        "weekly_return_pct": -33.74,
+        "weekly_amount_b": 0.0,
+        "end_close": 30.28
+      },
+      {
+        "symbol": "08030.HK",
+        "name": "豐銀禾控股",
+        "sector": "Finance",
+        "industry": "Finance/Rental/Leasing",
+        "weekly_return_pct": -30.72,
+        "weekly_amount_b": 0.07,
+        "end_close": 4.78
+      },
+      {
+        "symbol": "01640.HK",
+        "name": "千循科技",
+        "sector": "Commercial Services",
+        "industry": "Advertising/Marketing Services",
+        "weekly_return_pct": -30.06,
+        "weekly_amount_b": 0.01,
+        "end_close": 1.21
+      },
+      {
+        "symbol": "02592.HK",
+        "name": "撥康視雲－Ｂ",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -23.98,
+        "weekly_amount_b": 0.03,
+        "end_close": 1.3
+      },
+      {
+        "symbol": "02442.HK",
+        "name": "怡俊集團控股",
+        "sector": "Electronic Technology",
+        "industry": "Computer Communications",
+        "weekly_return_pct": -23.04,
+        "weekly_amount_b": 0.09,
+        "end_close": 28.72
+      },
+      {
+        "symbol": "00799.HK",
+        "name": "IGG",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": -16.8,
+        "weekly_amount_b": 0.08,
+        "end_close": 3.02
+      },
+      {
+        "symbol": "02610.HK",
+        "name": "南山鋁業國際",
+        "sector": "Producer Manufacturing",
+        "industry": "Metal Fabrication",
+        "weekly_return_pct": -13.78,
+        "weekly_amount_b": 0.61,
+        "end_close": 45.18
+      },
+      {
+        "symbol": "09878.HK",
+        "name": "匯通達網絡",
+        "sector": "Distribution Services",
+        "industry": "Wholesale Distributors",
+        "weekly_return_pct": -13.39,
+        "weekly_amount_b": 0.01,
+        "end_close": 6.66
+      },
+      {
+        "symbol": "01653.HK",
+        "name": "MOS HOUSE",
+        "sector": "Retail Trade",
+        "industry": "Specialty Stores",
+        "weekly_return_pct": -13.06,
+        "weekly_amount_b": 0.03,
+        "end_close": 2.73
+      }
+    ],
+    "top100_turnover": [
+      {
+        "symbol": "09988.HK",
+        "name": "阿里巴巴－Ｗ",
+        "sector": "Retail Trade",
+        "industry": "Department Stores",
+        "weekly_return_pct": 3.97,
+        "weekly_amount_b": 60.54,
+        "end_close": 123.2
+      },
+      {
+        "symbol": "00700.HK",
+        "name": "騰訊控股",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 0.16,
+        "weekly_amount_b": 56.35,
+        "end_close": 490.0
+      },
+      {
+        "symbol": "06869.HK",
+        "name": "長飛光纖光纜",
+        "sector": "Electronic Technology",
+        "industry": "Telecommunications Equipment",
+        "weekly_return_pct": 13.65,
+        "weekly_amount_b": 32.05,
+        "end_close": 214.8
+      },
+      {
+        "symbol": "01810.HK",
+        "name": "小米集團－Ｗ",
+        "sector": "Electronic Technology",
+        "industry": "Telecommunications Equipment",
+        "weekly_return_pct": -0.71,
+        "weekly_amount_b": 30.56,
+        "end_close": 30.66
+      },
+      {
+        "symbol": "00981.HK",
+        "name": "中芯國際",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 12.06,
+        "weekly_amount_b": 21.41,
+        "end_close": 57.15
+      },
+      {
+        "symbol": "03690.HK",
+        "name": "美團－Ｗ",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 7.73,
+        "weekly_amount_b": 21.06,
+        "end_close": 86.45
+      },
+      {
+        "symbol": "09992.HK",
+        "name": "泡泡瑪特",
+        "sector": "Consumer Services",
+        "industry": "Movies/Entertainment",
+        "weekly_return_pct": 6.84,
+        "weekly_amount_b": 19.49,
+        "end_close": 151.5
+      },
+      {
+        "symbol": "01211.HK",
+        "name": "比亞迪股份",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 6.16,
+        "weekly_amount_b": 19.32,
+        "end_close": 110.3
+      },
+      {
+        "symbol": "00883.HK",
+        "name": "中國海洋石油",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": -1.41,
+        "weekly_amount_b": 19.14,
+        "end_close": 26.64
+      },
+      {
+        "symbol": "00005.HK",
+        "name": "滙豐控股",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 6.77,
+        "weekly_amount_b": 14.85,
+        "end_close": 138.8
+      },
+      {
+        "symbol": "00175.HK",
+        "name": "吉利汽車",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 4.7,
+        "weekly_amount_b": 14.5,
+        "end_close": 24.94
+      },
+      {
+        "symbol": "01024.HK",
+        "name": "快手－Ｗ",
+        "sector": "Commercial Services",
+        "industry": "Advertising/Marketing Services",
+        "weekly_return_pct": -0.8,
+        "weekly_amount_b": 12.5,
+        "end_close": 44.54
+      },
+      {
+        "symbol": "02318.HK",
+        "name": "中國平安",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 2.41,
+        "weekly_amount_b": 11.54,
+        "end_close": 61.65
+      },
+      {
+        "symbol": "03317.HK",
+        "name": "迅策",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 80.55,
+        "weekly_amount_b": 11.05,
+        "end_close": 358.4
+      },
+      {
+        "symbol": "01299.HK",
+        "name": "友邦保險",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 1.45,
+        "weekly_amount_b": 10.36,
+        "end_close": 87.4
+      },
+      {
+        "symbol": "02899.HK",
+        "name": "紫金礦業",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 3.62,
+        "weekly_amount_b": 10.17,
+        "end_close": 36.6
+      },
+      {
+        "symbol": "02513.HK",
+        "name": "智譜",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 22.91,
+        "weekly_amount_b": 9.91,
+        "end_close": 957.5
+      },
+      {
+        "symbol": "00388.HK",
+        "name": "香港交易所",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": 2.47,
+        "weekly_amount_b": 9.9,
+        "end_close": 405.8
+      },
+      {
+        "symbol": "01347.HK",
+        "name": "華虹半導體",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 12.29,
+        "weekly_amount_b": 9.88,
+        "end_close": 89.1
+      },
+      {
+        "symbol": "00568.HK",
+        "name": "山東墨龍",
+        "sector": "Industrial Services",
+        "industry": "Oilfield Services/Equipment",
+        "weekly_return_pct": -0.65,
+        "weekly_amount_b": 9.72,
+        "end_close": 9.18
+      },
+      {
+        "symbol": "00939.HK",
+        "name": "建設銀行",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": -0.36,
+        "weekly_amount_b": 9.68,
+        "end_close": 8.42
+      },
+      {
+        "symbol": "02628.HK",
+        "name": "中國人壽",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 8.24,
+        "weekly_amount_b": 8.14,
+        "end_close": 27.06
+      },
+      {
+        "symbol": "01384.HK",
+        "name": "滴普科技",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 142.82,
+        "weekly_amount_b": 8.12,
+        "end_close": 71.0
+      },
+      {
+        "symbol": "01378.HK",
+        "name": "中國宏橋",
+        "sector": "Non-Energy Minerals",
+        "industry": "Aluminum",
+        "weekly_return_pct": 2.29,
+        "weekly_amount_b": 7.92,
+        "end_close": 37.52
+      },
+      {
+        "symbol": "03750.HK",
+        "name": "寧德時代",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 8.76,
+        "weekly_amount_b": 7.88,
+        "end_close": 682.5
+      },
+      {
+        "symbol": "01788.HK",
+        "name": "國泰君安國際",
+        "sector": "Finance",
+        "industry": "Investment Managers",
+        "weekly_return_pct": 14.47,
+        "weekly_amount_b": 7.3,
+        "end_close": 2.69
+      },
+      {
+        "symbol": "03808.HK",
+        "name": "中國重汽",
+        "sector": "Producer Manufacturing",
+        "industry": "Trucks/Construction/Farm Machinery",
+        "weekly_return_pct": 11.52,
+        "weekly_amount_b": 6.6,
+        "end_close": 47.44
+      },
+      {
+        "symbol": "00857.HK",
+        "name": "中國石油股份",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": 1.86,
+        "weekly_amount_b": 6.59,
+        "end_close": 10.97
+      },
+      {
+        "symbol": "01398.HK",
+        "name": "工商銀行",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 0.29,
+        "weekly_amount_b": 6.22,
+        "end_close": 6.98
+      },
+      {
+        "symbol": "02259.HK",
+        "name": "紫金黃金國際",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 3.92,
+        "weekly_amount_b": 5.93,
+        "end_close": 183.0
+      },
+      {
+        "symbol": "02382.HK",
+        "name": "舜宇光學科技",
+        "sector": "Electronic Technology",
+        "industry": "Electronic Components",
+        "weekly_return_pct": 3.67,
+        "weekly_amount_b": 5.76,
+        "end_close": 62.1
+      },
+      {
+        "symbol": "09888.HK",
+        "name": "百度集團－ＳＷ",
+        "sector": "Technology Services",
+        "industry": "Internet Software/Services",
+        "weekly_return_pct": -1.29,
+        "weekly_amount_b": 5.73,
+        "end_close": 107.4
+      },
+      {
+        "symbol": "03988.HK",
+        "name": "中國銀行",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": -0.4,
+        "weekly_amount_b": 5.73,
+        "end_close": 5.04
+      },
+      {
+        "symbol": "03993.HK",
+        "name": "洛陽鉬業",
+        "sector": "Distribution Services",
+        "industry": "Wholesale Distributors",
+        "weekly_return_pct": 8.2,
+        "weekly_amount_b": 5.71,
+        "end_close": 18.35
+      },
+      {
+        "symbol": "00100.HK",
+        "name": "MINIMAX-WP",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 1.11,
+        "weekly_amount_b": 5.67,
+        "end_close": 960.0
+      },
+      {
+        "symbol": "01530.HK",
+        "name": "三生製藥",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -5.91,
+        "weekly_amount_b": 5.59,
+        "end_close": 23.88
+      },
+      {
+        "symbol": "00941.HK",
+        "name": "中國移動",
+        "sector": "Communications",
+        "industry": "Specialty Telecommunications",
+        "weekly_return_pct": 1.31,
+        "weekly_amount_b": 5.48,
+        "end_close": 81.1
+      },
+      {
+        "symbol": "01772.HK",
+        "name": "贛鋒鋰業",
+        "sector": "Process Industries",
+        "industry": "Chemicals: Specialty",
+        "weekly_return_pct": 9.17,
+        "weekly_amount_b": 5.44,
+        "end_close": 79.8
+      },
+      {
+        "symbol": "01801.HK",
+        "name": "信達生物",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -5.03,
+        "weekly_amount_b": 5.33,
+        "end_close": 86.9
+      },
+      {
+        "symbol": "09926.HK",
+        "name": "康方生物",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -1.92,
+        "weekly_amount_b": 5.23,
+        "end_close": 137.8
+      },
+      {
+        "symbol": "09618.HK",
+        "name": "京東集團－ＳＷ",
+        "sector": "Retail Trade",
+        "industry": "Internet Retail",
+        "weekly_return_pct": 0.36,
+        "weekly_amount_b": 5.15,
+        "end_close": 112.3
+      },
+      {
+        "symbol": "00992.HK",
+        "name": "聯想集團",
+        "sector": "Electronic Technology",
+        "industry": "Computer Processing Hardware",
+        "weekly_return_pct": 3.92,
+        "weekly_amount_b": 5.09,
+        "end_close": 10.07
+      },
+      {
+        "symbol": "09868.HK",
+        "name": "小鵬汽車－Ｗ",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": -0.22,
+        "weekly_amount_b": 4.73,
+        "end_close": 67.6
+      },
+      {
+        "symbol": "09999.HK",
+        "name": "網易－Ｓ",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 0.51,
+        "weekly_amount_b": 4.59,
+        "end_close": 175.7
+      },
+      {
+        "symbol": "02020.HK",
+        "name": "安踏體育",
+        "sector": "Consumer Non-Durables",
+        "industry": "Apparel/Footwear",
+        "weekly_return_pct": 2.61,
+        "weekly_amount_b": 4.43,
+        "end_close": 82.65
+      },
+      {
+        "symbol": "02269.HK",
+        "name": "藥明生物",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": 0.86,
+        "weekly_amount_b": 4.36,
+        "end_close": 35.28
+      },
+      {
+        "symbol": "02338.HK",
+        "name": "濰柴動力",
+        "sector": "Producer Manufacturing",
+        "industry": "Auto Parts: OEM",
+        "weekly_return_pct": 12.3,
+        "weekly_amount_b": 4.26,
+        "end_close": 32.68
+      },
+      {
+        "symbol": "09880.HK",
+        "name": "優必選",
+        "sector": "Producer Manufacturing",
+        "industry": "Industrial Machinery",
+        "weekly_return_pct": 4.02,
+        "weekly_amount_b": 4.21,
+        "end_close": 106.2
+      },
+      {
+        "symbol": "01088.HK",
+        "name": "中國神華",
+        "sector": "Energy Minerals",
+        "industry": "Coal",
+        "weekly_return_pct": -2.53,
+        "weekly_amount_b": 4.19,
+        "end_close": 45.4
+      },
+      {
+        "symbol": "06160.HK",
+        "name": "百濟神州",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -0.21,
+        "weekly_amount_b": 4.14,
+        "end_close": 187.1
+      },
+      {
+        "symbol": "03986.HK",
+        "name": "兆易創新",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 13.18,
+        "weekly_amount_b": 3.9,
+        "end_close": 391.6
+      },
+      {
+        "symbol": "02015.HK",
+        "name": "理想汽車－Ｗ",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 2.65,
+        "weekly_amount_b": 3.89,
+        "end_close": 73.7
+      },
+      {
+        "symbol": "01428.HK",
+        "name": "耀才證券金融",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": -3.17,
+        "weekly_amount_b": 3.88,
+        "end_close": 12.2
+      },
+      {
+        "symbol": "09660.HK",
+        "name": "地平線機器人－Ｗ",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 6.33,
+        "weekly_amount_b": 3.88,
+        "end_close": 7.05
+      },
+      {
+        "symbol": "09863.HK",
+        "name": "零跑汽車",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": 5.19,
+        "weekly_amount_b": 3.79,
+        "end_close": 55.75
+      },
+      {
+        "symbol": "03896.HK",
+        "name": "金山雲",
+        "sector": "Technology Services",
+        "industry": "Data Processing Services",
+        "weekly_return_pct": 17.28,
+        "weekly_amount_b": 3.76,
+        "end_close": 8.35
+      },
+      {
+        "symbol": "00020.HK",
+        "name": "商湯－Ｗ",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 8.11,
+        "weekly_amount_b": 3.7,
+        "end_close": 2.0
+      },
+      {
+        "symbol": "00386.HK",
+        "name": "中國石油化工股份",
+        "sector": "Energy Minerals",
+        "industry": "Integrated Oil",
+        "weekly_return_pct": 1.74,
+        "weekly_amount_b": 3.7,
+        "end_close": 4.67
+      },
+      {
+        "symbol": "09961.HK",
+        "name": "攜程集團－Ｓ",
+        "sector": "Consumer Services",
+        "industry": "Other Consumer Services",
+        "weekly_return_pct": 1.69,
+        "weekly_amount_b": 3.68,
+        "end_close": 397.2
+      },
+      {
+        "symbol": "06181.HK",
+        "name": "老鋪黃金",
+        "sector": "Consumer Durables",
+        "industry": "Other Consumer Specialties",
+        "weekly_return_pct": -1.57,
+        "weekly_amount_b": 3.63,
+        "end_close": 628.0
+      },
+      {
+        "symbol": "09995.HK",
+        "name": "榮昌生物",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -4.6,
+        "weekly_amount_b": 3.56,
+        "end_close": 109.9
+      },
+      {
+        "symbol": "00016.HK",
+        "name": "新鴻基地產",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 3.66,
+        "weekly_amount_b": 3.53,
+        "end_close": 135.8
+      },
+      {
+        "symbol": "01171.HK",
+        "name": "兗礦能源",
+        "sector": "Energy Minerals",
+        "industry": "Coal",
+        "weekly_return_pct": -0.75,
+        "weekly_amount_b": 3.47,
+        "end_close": 14.46
+      },
+      {
+        "symbol": "00669.HK",
+        "name": "創科實業",
+        "sector": "Consumer Durables",
+        "industry": "Tools & Hardware",
+        "weekly_return_pct": 5.43,
+        "weekly_amount_b": 3.46,
+        "end_close": 110.6
+      },
+      {
+        "symbol": "01093.HK",
+        "name": "石藥集團",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -7.31,
+        "weekly_amount_b": 3.34,
+        "end_close": 9.0
+      },
+      {
+        "symbol": "02600.HK",
+        "name": "中國鋁業",
+        "sector": "Distribution Services",
+        "industry": "Wholesale Distributors",
+        "weekly_return_pct": 3.21,
+        "weekly_amount_b": 3.28,
+        "end_close": 12.22
+      },
+      {
+        "symbol": "01138.HK",
+        "name": "中遠海能",
+        "sector": "Transportation",
+        "industry": "Marine Shipping",
+        "weekly_return_pct": -3.81,
+        "weekly_amount_b": 3.24,
+        "end_close": 18.67
+      },
+      {
+        "symbol": "03968.HK",
+        "name": "招商銀行",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 0.04,
+        "weekly_amount_b": 3.15,
+        "end_close": 49.72
+      },
+      {
+        "symbol": "02359.HK",
+        "name": "藥明康德",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": 2.8,
+        "weekly_amount_b": 2.96,
+        "end_close": 128.4
+      },
+      {
+        "symbol": "09626.HK",
+        "name": "嗶哩嗶哩－Ｗ",
+        "sector": "Technology Services",
+        "industry": "Packaged Software",
+        "weekly_return_pct": 4.54,
+        "weekly_amount_b": 2.9,
+        "end_close": 186.6
+      },
+      {
+        "symbol": "00241.HK",
+        "name": "阿里健康",
+        "sector": "Technology Services",
+        "industry": "Information Technology Services",
+        "weekly_return_pct": -6.99,
+        "weekly_amount_b": 2.84,
+        "end_close": 4.39
+      },
+      {
+        "symbol": "01888.HK",
+        "name": "建滔積層板",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 24.23,
+        "weekly_amount_b": 2.77,
+        "end_close": 24.56
+      },
+      {
+        "symbol": "06088.HK",
+        "name": "FIT HON TENG",
+        "sector": "Electronic Technology",
+        "industry": "Electronic Components",
+        "weekly_return_pct": 15.7,
+        "weekly_amount_b": 2.76,
+        "end_close": 7.81
+      },
+      {
+        "symbol": "01177.HK",
+        "name": "中國生物製藥",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -9.0,
+        "weekly_amount_b": 2.71,
+        "end_close": 5.76
+      },
+      {
+        "symbol": "02328.HK",
+        "name": "中國財險",
+        "sector": "Finance",
+        "industry": "Property/Casualty Insurance",
+        "weekly_return_pct": 0.62,
+        "weekly_amount_b": 2.67,
+        "end_close": 14.6
+      },
+      {
+        "symbol": "01729.HK",
+        "name": "匯聚科技",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 29.0,
+        "weekly_amount_b": 2.66,
+        "end_close": 19.35
+      },
+      {
+        "symbol": "01787.HK",
+        "name": "山東黃金",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 0.9,
+        "weekly_amount_b": 2.61,
+        "end_close": 33.74
+      },
+      {
+        "symbol": "06030.HK",
+        "name": "中信證券",
+        "sector": "Finance",
+        "industry": "Investment Banks/Brokers",
+        "weekly_return_pct": 10.88,
+        "weekly_amount_b": 2.61,
+        "end_close": 26.9
+      },
+      {
+        "symbol": "02388.HK",
+        "name": "中銀香港",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 1.02,
+        "weekly_amount_b": 2.6,
+        "end_close": 43.62
+      },
+      {
+        "symbol": "09606.HK",
+        "name": "映恩生物－Ｂ",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -11.56,
+        "weekly_amount_b": 2.57,
+        "end_close": 286.2
+      },
+      {
+        "symbol": "01336.HK",
+        "name": "新華保險",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 3.18,
+        "weekly_amount_b": 2.54,
+        "end_close": 47.34
+      },
+      {
+        "symbol": "03330.HK",
+        "name": "靈寶黃金（一百）",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 0.44,
+        "weekly_amount_b": 2.49,
+        "end_close": 27.4
+      },
+      {
+        "symbol": "02228.HK",
+        "name": "晶泰控股",
+        "sector": "Health Technology",
+        "industry": "Biotechnology",
+        "weekly_return_pct": -0.63,
+        "weekly_amount_b": 2.48,
+        "end_close": 9.54
+      },
+      {
+        "symbol": "01072.HK",
+        "name": "東方電氣",
+        "sector": "Producer Manufacturing",
+        "industry": "Electrical Products",
+        "weekly_return_pct": 13.87,
+        "weekly_amount_b": 2.47,
+        "end_close": 40.24
+      },
+      {
+        "symbol": "01818.HK",
+        "name": "招金礦業",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": 2.34,
+        "weekly_amount_b": 2.42,
+        "end_close": 33.24
+      },
+      {
+        "symbol": "03858.HK",
+        "name": "佳鑫國際資源",
+        "sector": "Non-Energy Minerals",
+        "industry": "Other Metals/Minerals",
+        "weekly_return_pct": 5.95,
+        "weekly_amount_b": 2.41,
+        "end_close": 113.9
+      },
+      {
+        "symbol": "03692.HK",
+        "name": "翰森製藥",
+        "sector": "Health Technology",
+        "industry": "Pharmaceuticals: Major",
+        "weekly_return_pct": -2.29,
+        "weekly_amount_b": 2.38,
+        "end_close": 38.46
+      },
+      {
+        "symbol": "09973.HK",
+        "name": "奇瑞汽車",
+        "sector": "Consumer Durables",
+        "industry": "Motor Vehicles",
+        "weekly_return_pct": -0.19,
+        "weekly_amount_b": 2.37,
+        "end_close": 31.96
+      },
+      {
+        "symbol": "02331.HK",
+        "name": "李寧",
+        "sector": "Consumer Non-Durables",
+        "industry": "Apparel/Footwear",
+        "weekly_return_pct": 2.3,
+        "weekly_amount_b": 2.35,
+        "end_close": 22.22
+      },
+      {
+        "symbol": "06809.HK",
+        "name": "瀾起科技",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 21.71,
+        "weekly_amount_b": 2.31,
+        "end_close": 213.0
+      },
+      {
+        "symbol": "02423.HK",
+        "name": "貝殼－Ｗ",
+        "sector": "Finance",
+        "industry": "Real Estate Development",
+        "weekly_return_pct": 8.87,
+        "weekly_amount_b": 2.31,
+        "end_close": 41.0
+      },
+      {
+        "symbol": "00001.HK",
+        "name": "長和",
+        "sector": "Retail Trade",
+        "industry": "Specialty Stores",
+        "weekly_return_pct": 4.36,
+        "weekly_amount_b": 2.3,
+        "end_close": 63.4
+      },
+      {
+        "symbol": "09903.HK",
+        "name": "天數智芯",
+        "sector": "Electronic Technology",
+        "industry": "Semiconductors",
+        "weekly_return_pct": 61.24,
+        "weekly_amount_b": 2.28,
+        "end_close": 354.4
+      },
+      {
+        "symbol": "00358.HK",
+        "name": "江西銅業股份",
+        "sector": "Non-Energy Minerals",
+        "industry": "Other Metals/Minerals",
+        "weekly_return_pct": 5.98,
+        "weekly_amount_b": 2.26,
+        "end_close": 36.88
+      },
+      {
+        "symbol": "02601.HK",
+        "name": "中國太保",
+        "sector": "Finance",
+        "industry": "Multi-Line Insurance",
+        "weekly_return_pct": 0.84,
+        "weekly_amount_b": 2.22,
+        "end_close": 33.44
+      },
+      {
+        "symbol": "01288.HK",
+        "name": "農業銀行",
+        "sector": "Finance",
+        "industry": "Major Banks",
+        "weekly_return_pct": 2.29,
+        "weekly_amount_b": 2.2,
+        "end_close": 5.81
+      },
+      {
+        "symbol": "06693.HK",
+        "name": "赤峯黃金",
+        "sector": "Non-Energy Minerals",
+        "industry": "Precious Metals",
+        "weekly_return_pct": -0.05,
+        "weekly_amount_b": 2.08,
+        "end_close": 41.86
+      },
+      {
+        "symbol": "06618.HK",
+        "name": "京東健康",
+        "sector": "Retail Trade",
+        "industry": "Drugstore Chains",
+        "weekly_return_pct": -5.11,
+        "weekly_amount_b": 2.07,
+        "end_close": 46.46
+      },
+      {
+        "symbol": "00288.HK",
+        "name": "萬洲國際",
+        "sector": "Consumer Non-Durables",
+        "industry": "Food: Meat/Fish/Dairy",
+        "weekly_return_pct": 0.38,
+        "weekly_amount_b": 2.07,
+        "end_close": 10.67
+      },
+      {
+        "symbol": "00027.HK",
+        "name": "銀河娛樂",
+        "sector": "Consumer Services",
+        "industry": "Casinos/Gaming",
+        "weekly_return_pct": -4.39,
+        "weekly_amount_b": 2.06,
+        "end_close": 34.38
+      }
+    ],
+    "daily_breadth": [
+      {
+        "date": "2026-04-08",
+        "prev": "2026-04-02",
+        "advancers": 1019,
+        "decliners": 293,
+        "flat": 112,
+        "median_pct": 1.96,
+        "mean_pct": 2.61
+      },
+      {
+        "date": "2026-04-09",
+        "prev": "2026-04-08",
+        "advancers": 406,
+        "decliners": 808,
+        "flat": 206,
+        "median_pct": -0.59,
+        "mean_pct": -0.76
+      },
+      {
+        "date": "2026-04-10",
+        "prev": "2026-04-09",
+        "advancers": 745,
+        "decliners": 503,
+        "flat": 243,
+        "median_pct": 0.0,
+        "mean_pct": 0.55
+      },
+      {
+        "date": "2026-04-13",
+        "prev": "2026-04-10",
+        "advancers": 386,
+        "decliners": 824,
+        "flat": 174,
+        "median_pct": -0.68,
+        "mean_pct": -0.57
+      }
+    ],
+    "sector_groups": [
+      {
+        "group": "Producer Manufacturing",
+        "stock_count": 84,
+        "advancers": 69,
+        "decliners": 13,
+        "mean_return_pct": 5.87,
+        "median_return_pct": 4.79,
+        "weekly_amount_b": 75.8,
+        "leader_symbol": "01211.HK",
+        "leader_name": "比亞迪股份",
+        "leader_return_pct": 6.16
+      },
+      {
+        "group": "Electronic Technology",
+        "stock_count": 59,
+        "advancers": 47,
+        "decliners": 11,
+        "mean_return_pct": 5.37,
+        "median_return_pct": 3.67,
+        "weekly_amount_b": 131.55,
+        "leader_symbol": "06869.HK",
+        "leader_name": "長飛光纖光纜",
+        "leader_return_pct": 13.65
+      },
+      {
+        "group": "Technology Services",
+        "stock_count": 100,
+        "advancers": 64,
+        "decliners": 33,
+        "mean_return_pct": 4.47,
+        "median_return_pct": 1.88,
+        "weekly_amount_b": 161.56,
+        "leader_symbol": "00700.HK",
+        "leader_name": "騰訊控股",
+        "leader_return_pct": 0.16
+      },
+      {
+        "group": "Non-Energy Minerals",
+        "stock_count": 40,
+        "advancers": 34,
+        "decliners": 5,
+        "mean_return_pct": 3.83,
+        "median_return_pct": 2.71,
+        "weekly_amount_b": 49.91,
+        "leader_symbol": "02899.HK",
+        "leader_name": "紫金礦業",
+        "leader_return_pct": 3.62
+      },
+      {
+        "group": "Process Industries",
+        "stock_count": 47,
+        "advancers": 29,
+        "decliners": 17,
+        "mean_return_pct": 3.57,
+        "median_return_pct": 3.31,
+        "weekly_amount_b": 14.73,
+        "leader_symbol": "01772.HK",
+        "leader_name": "贛鋒鋰業",
+        "leader_return_pct": 9.17
+      },
+      {
+        "group": "Consumer Durables",
+        "stock_count": 47,
+        "advancers": 34,
+        "decliners": 12,
+        "mean_return_pct": 2.69,
+        "median_return_pct": 1.77,
+        "weekly_amount_b": 55.07,
+        "leader_symbol": "00175.HK",
+        "leader_name": "吉利汽車",
+        "leader_return_pct": 4.7
+      },
+      {
+        "group": "Transportation",
+        "stock_count": 43,
+        "advancers": 33,
+        "decliners": 8,
+        "mean_return_pct": 1.99,
+        "median_return_pct": 1.48,
+        "weekly_amount_b": 18.88,
+        "leader_symbol": "01138.HK",
+        "leader_name": "中遠海能",
+        "leader_return_pct": -3.81
+      },
+      {
+        "group": "Industrial Services",
+        "stock_count": 40,
+        "advancers": 21,
+        "decliners": 14,
+        "mean_return_pct": 1.78,
+        "median_return_pct": 0.5,
+        "weekly_amount_b": 14.63,
+        "leader_symbol": "00568.HK",
+        "leader_name": "山東墨龍",
+        "leader_return_pct": -0.65
+      },
+      {
+        "group": "Finance",
+        "stock_count": 188,
+        "advancers": 132,
+        "decliners": 49,
+        "mean_return_pct": 1.67,
+        "median_return_pct": 1.68,
+        "weekly_amount_b": 149.16,
+        "leader_symbol": "00005.HK",
+        "leader_name": "滙豐控股",
+        "leader_return_pct": 6.77
+      },
+      {
+        "group": "Health Services",
+        "stock_count": 18,
+        "advancers": 8,
+        "decliners": 8,
+        "mean_return_pct": 1.18,
+        "median_return_pct": 0.0,
+        "weekly_amount_b": 1.37,
+        "leader_symbol": "01833.HK",
+        "leader_name": "平安好醫生",
+        "leader_return_pct": -2.69
+      },
+      {
+        "group": "Communications",
+        "stock_count": 13,
+        "advancers": 11,
+        "decliners": 2,
+        "mean_return_pct": 1.08,
+        "median_return_pct": 0.86,
+        "weekly_amount_b": 8.56,
+        "leader_symbol": "00941.HK",
+        "leader_name": "中國移動",
+        "leader_return_pct": 1.31
+      },
+      {
+        "group": "Utilities",
+        "stock_count": 36,
+        "advancers": 22,
+        "decliners": 11,
+        "mean_return_pct": 0.63,
+        "median_return_pct": 0.77,
+        "weekly_amount_b": 14.44,
+        "leader_symbol": "02688.HK",
+        "leader_name": "新奧能源",
+        "leader_return_pct": 2.04
+      }
+    ],
+    "industry_groups": [
+      {
+        "group": "Data Processing Services",
+        "stock_count": 9,
+        "advancers": 7,
+        "decliners": 2,
+        "mean_return_pct": 11.63,
+        "median_return_pct": 6.33,
+        "weekly_amount_b": 17.08,
+        "leader_symbol": "03317.HK",
+        "leader_name": "迅策",
+        "leader_return_pct": 80.55
+      },
+      {
+        "group": "Semiconductors",
+        "stock_count": 17,
+        "advancers": 14,
+        "decliners": 2,
+        "mean_return_pct": 10.34,
+        "median_return_pct": 8.24,
+        "weekly_amount_b": 44.34,
+        "leader_symbol": "00981.HK",
+        "leader_name": "中芯國際",
+        "leader_return_pct": 12.06
+      },
+      {
+        "group": "Auto Parts: OEM",
+        "stock_count": 13,
+        "advancers": 12,
+        "decliners": 1,
+        "mean_return_pct": 8.33,
+        "median_return_pct": 5.71,
+        "weekly_amount_b": 7.95,
+        "leader_symbol": "02338.HK",
+        "leader_name": "濰柴動力",
+        "leader_return_pct": 12.3
+      },
+      {
+        "group": "Electrical Products",
+        "stock_count": 25,
+        "advancers": 19,
+        "decliners": 4,
+        "mean_return_pct": 8.08,
+        "median_return_pct": 6.16,
+        "weekly_amount_b": 44.75,
+        "leader_symbol": "01211.HK",
+        "leader_name": "比亞迪股份",
+        "leader_return_pct": 6.16
+      },
+      {
+        "group": "Hospital/Nursing Management",
+        "stock_count": 6,
+        "advancers": 6,
+        "decliners": 0,
+        "mean_return_pct": 7.71,
+        "median_return_pct": 5.89,
+        "weekly_amount_b": 0.56,
+        "leader_symbol": "02609.HK",
+        "leader_name": "佰澤醫療",
+        "leader_return_pct": 9.22
+      },
+      {
+        "group": "Recreational Products",
+        "stock_count": 6,
+        "advancers": 4,
+        "decliners": 2,
+        "mean_return_pct": 6.74,
+        "median_return_pct": 2.58,
+        "weekly_amount_b": 1.91,
+        "leader_symbol": "06090.HK",
+        "leader_name": "不同集團",
+        "leader_return_pct": 38.45
+      },
+      {
+        "group": "Electronic Production Equipment",
+        "stock_count": 10,
+        "advancers": 10,
+        "decliners": 0,
+        "mean_return_pct": 6.15,
+        "median_return_pct": 5.11,
+        "weekly_amount_b": 4.04,
+        "leader_symbol": "00285.HK",
+        "leader_name": "比亞迪電子",
+        "leader_return_pct": 3.53
+      },
+      {
+        "group": "Investment Managers",
+        "stock_count": 13,
+        "advancers": 10,
+        "decliners": 2,
+        "mean_return_pct": 5.95,
+        "median_return_pct": 4.7,
+        "weekly_amount_b": 10.26,
+        "leader_symbol": "01788.HK",
+        "leader_name": "國泰君安國際",
+        "leader_return_pct": 14.47
+      },
+      {
+        "group": "Trucks/Construction/Farm Machinery",
+        "stock_count": 7,
+        "advancers": 7,
+        "decliners": 0,
+        "mean_return_pct": 5.7,
+        "median_return_pct": 6.29,
+        "weekly_amount_b": 9.27,
+        "leader_symbol": "03808.HK",
+        "leader_name": "中國重汽",
+        "leader_return_pct": 11.52
+      },
+      {
+        "group": "Industrial Specialties",
+        "stock_count": 5,
+        "advancers": 3,
+        "decliners": 1,
+        "mean_return_pct": 5.6,
+        "median_return_pct": 4.0,
+        "weekly_amount_b": 1.06,
+        "leader_symbol": "02631.HK",
+        "leader_name": "天嶽先進",
+        "leader_return_pct": 15.32
+      },
+      {
+        "group": "Other Metals/Minerals",
+        "stock_count": 13,
+        "advancers": 13,
+        "decliners": 0,
+        "mean_return_pct": 5.34,
+        "median_return_pct": 3.76,
+        "weekly_amount_b": 12.41,
+        "leader_symbol": "03858.HK",
+        "leader_name": "佳鑫國際資源",
+        "leader_return_pct": 5.95
+      },
+      {
+        "group": "Steel",
+        "stock_count": 7,
+        "advancers": 6,
+        "decliners": 1,
+        "mean_return_pct": 5.17,
+        "median_return_pct": 3.31,
+        "weekly_amount_b": 0.57,
+        "leader_symbol": "00323.HK",
+        "leader_name": "馬鞍山鋼鐵股份",
+        "leader_return_pct": 8.8
+      }
+    ],
+    "top_turnover_sectors": [
+      {
+        "sector": "Technology Services",
+        "stock_count": 100,
+        "weekly_amount_b": 161.56,
+        "mean_return_pct": 4.47,
+        "median_return_pct": 1.88
+      },
+      {
+        "sector": "Finance",
+        "stock_count": 188,
+        "weekly_amount_b": 149.16,
+        "mean_return_pct": 1.67,
+        "median_return_pct": 1.68
+      },
+      {
+        "sector": "Electronic Technology",
+        "stock_count": 59,
+        "weekly_amount_b": 131.55,
+        "mean_return_pct": 5.37,
+        "median_return_pct": 3.67
+      },
+      {
+        "sector": "Health Technology",
+        "stock_count": 140,
+        "weekly_amount_b": 77.86,
+        "mean_return_pct": -0.07,
+        "median_return_pct": -1.03
+      },
+      {
+        "sector": "Retail Trade",
+        "stock_count": 44,
+        "weekly_amount_b": 75.89,
+        "mean_return_pct": -1.29,
+        "median_return_pct": -0.77
+      },
+      {
+        "sector": "Producer Manufacturing",
+        "stock_count": 84,
+        "weekly_amount_b": 75.8,
+        "mean_return_pct": 5.87,
+        "median_return_pct": 4.79
+      },
+      {
+        "sector": "Consumer Durables",
+        "stock_count": 47,
+        "weekly_amount_b": 55.07,
+        "mean_return_pct": 2.69,
+        "median_return_pct": 1.77
+      },
+      {
+        "sector": "Non-Energy Minerals",
+        "stock_count": 40,
+        "weekly_amount_b": 49.91,
+        "mean_return_pct": 3.83,
+        "median_return_pct": 2.71
+      },
+      {
+        "sector": "Energy Minerals",
+        "stock_count": 18,
+        "weekly_amount_b": 41.03,
+        "mean_return_pct": -1.18,
+        "median_return_pct": -1.15
+      },
+      {
+        "sector": "Consumer Services",
+        "stock_count": 52,
+        "weekly_amount_b": 35.5,
+        "mean_return_pct": 0.36,
+        "median_return_pct": -0.29
+      },
+      {
+        "sector": "Consumer Non-Durables",
+        "stock_count": 68,
+        "weekly_amount_b": 27.95,
+        "mean_return_pct": 0.34,
+        "median_return_pct": 0.05
+      },
+      {
+        "sector": "Transportation",
+        "stock_count": 43,
+        "weekly_amount_b": 18.88,
+        "mean_return_pct": 1.99,
+        "median_return_pct": 1.48
+      }
+    ]
+  },
+  "index_comparison": [
+    {
+      "label": "恒指",
+      "ticker": "^HSI",
+      "note": "",
+      "start_close": 25116.53,
+      "end_close": 25660.85,
+      "return_pct": 2.17
+    },
+    {
+      "label": "國指",
+      "ticker": "^HSCE",
+      "note": "",
+      "start_close": 8456.92,
+      "end_close": 8602.06,
+      "return_pct": 1.72
+    },
+    {
+      "label": "科指 ETF proxy",
+      "ticker": "3032.HK",
+      "note": "HSTECH ETF proxy",
+      "start_close": 4.65,
+      "end_close": 4.8,
+      "return_pct": 3.31
+    },
+    {
+      "label": "上證綜指",
+      "ticker": "000001.SS",
+      "note": "A股",
+      "start_close": 3919.28,
+      "end_close": 3988.56,
+      "return_pct": 1.77
+    },
+    {
+      "label": "深證成指",
+      "ticker": "399001.SZ",
+      "note": "A股",
+      "start_close": 13486.94,
+      "end_close": 14407.86,
+      "return_pct": 6.83
+    }
+  ],
+  "watchlist_snapshot": [
+    {
+      "ticker": "0700.HK",
+      "alias": "Tencent",
+      "start_close": 489.2,
+      "close": 490.0,
+      "week_change_pct": 0.16,
+      "day_change_pct": -2.87,
+      "volume_ratio": 0.94,
+      "last_date": "2026-04-13"
+    },
+    {
+      "ticker": "9988.HK",
+      "alias": "Alibaba",
+      "start_close": 118.5,
+      "close": 123.2,
+      "week_change_pct": 3.97,
+      "day_change_pct": -1.83,
+      "volume_ratio": 0.52,
+      "last_date": "2026-04-13"
+    },
+    {
+      "ticker": "3690.HK",
+      "alias": "Meituan",
+      "start_close": 80.25,
+      "close": 86.45,
+      "week_change_pct": 7.73,
+      "day_change_pct": -1.31,
+      "volume_ratio": 0.49,
+      "last_date": "2026-04-13"
+    },
+    {
+      "ticker": "1810.HK",
+      "alias": "Xiaomi",
+      "start_close": 30.88,
+      "close": 30.66,
+      "week_change_pct": -0.71,
+      "day_change_pct": -0.78,
+      "volume_ratio": 0.61,
+      "last_date": "2026-04-13"
+    },
+    {
+      "ticker": "600519.SS",
+      "alias": "Kweichow Moutai",
+      "start_close": 1459.88,
+      "close": 1443.31,
+      "week_change_pct": -1.14,
+      "day_change_pct": -0.73,
+      "volume_ratio": 1.01,
+      "last_date": "2026-04-13"
+    },
+    {
+      "ticker": "000333.SZ",
+      "alias": "Midea",
+      "start_close": 77.37,
+      "close": 75.78,
+      "week_change_pct": -2.06,
+      "day_change_pct": -0.82,
+      "volume_ratio": 0.79,
+      "last_date": "2026-04-13"
+    }
+  ],
+  "news_map": {
+    "Hong Kong stocks": [
+      {
+        "title": "Hong Kong Stocks Surge As Ceasefire Sparks Market Rally - Evrim Ağacı",
+        "pubDate": "Wed, 08 Apr 2026 19:46:20 GMT",
+        "source": "Evrim Ağacı",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZDY5cWx3NGppNldHc3FNSHFNUkdMNXlWeWpYVS1iS253S1VCeVdYN0t5aFVsZEJiNnZfT0EyNWRJNzE0cVNmV1V3X3kxR3pYY3lncUtLYnVQbm1EUDBYMktWc1drWW8zN1VrZm1SdGo1Zi1Dci1VRGpiTDRNLVZCeVlhTVVVemU4NGQ4Zkg3UFA4RE0?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Edge Higher - TradingView — Track All Markets",
+        "pubDate": "Fri, 10 Apr 2026 02:10:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcklNb1Vud2RWa0Fmc19yWTM3ejY2R2xQQUVrdWhlV2szX0FOeXlpa0FVd1NMQy1nZGdjX0pCWTM4ZW9McGVhbERJbjgwV3ZWUnoydjZPWi00TXFOUDZRX3RNbnJCaS15QWF5ekVCYmVBTW1GRk9ZMDJUamhNQlJwOGZSdkswUQ?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "Hang Seng Index Index Price - Hong Kong 50 - FOREX.com",
+        "pubDate": "Thu, 09 Apr 2026 07:00:00 GMT",
+        "source": "FOREX.com",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqWGktbm9jWk93TmNmZXNhNlZ6X1VrUGFvYlBBemZZTTRZQThwQ2V3bXMtbnNsa1ZUMmItajdEQnc4NnBWdFZ2RktlNjliNVVrMWZKaXFta3dJcExISi1lU0dhdnBpZw?oc=5"
+      },
+      {
+        "title": "Hong Kong Stock Market Midday Review | Hang Seng Index fell 1.18% in the morning session, while storage-related concept stocks performed strongly against the market trend. - Moomoo",
+        "pubDate": "Mon, 13 Apr 2026 04:08:47 GMT",
+        "source": "Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNakQxejMwdnhyV3k1bUNGWFM1QzJDN0JMWlpxaWlWZFp2aE1PZWZ3bHkzXzk1WWhweGNNWUZlUm9BQ3hFZEVKZmYtRF9KN1VNem1KbG5tcDVuMjlrUTVmaDRISlRfQXQ0endhNlJjY3BwSG5TTTZjVWZ5ZzNHLV9UVkZfVDRMVWttS19fOHIweDF2SENPZS1RMm8yX09OVHVk?oc=5"
+      },
+      {
+        "title": "Yum China files annual report for 2025 with Hong Kong Stock Exchange - Investing.com",
+        "pubDate": "Wed, 08 Apr 2026 12:43:08 GMT",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeml3OXZ1M2RFTm1CWU0wVkFUR0ZsZEs3b3JDRks4Z21TaEpCbEo3c0o4QlRDNWJ1bkdZS1lPWU05b05hZTEtR2k2TkFpX2lEcGM3cFJfRVhuSS1qMmRYYUFZS05kTnVnSU05NFZER2lKMkNCYkp3LVRJbFJWWmJudm50TTdyRTJuOWZsX3c2c0JCdkx6N0doZFdmSVFRb3Y2MXhnd0Q5dl9Nb2ZjRjh4NS16MVlEdENJdjJUWXBzYzRXdw?oc=5"
+      },
+      {
+        "title": "Iran War: China and Hong Kong’s stocks rise 2.5% after ceasefire (with video) - Plataforma Media",
+        "pubDate": "Wed, 08 Apr 2026 09:27:47 GMT",
+        "source": "Plataforma Media",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM0xZelpKMGRXaGMtM0JGMHJDeGgxa2hUcElyeFo1aE03X3piSXVVTHN1WEg2N2lMYW9fS0Q1cTBVQVphOVNBUTBRb1BFeE5wSTVYVDlIYXAyOWtLd2ZpSmVKY1YzTUJ2STBFOHMwVGdjVFVJb1UyS0RJSjRteFN5WlE2U29TblVzM0s1Wl9EeGlibHg5N0dCVTJGdWNMdw?oc=5"
+      },
+      {
+        "title": "China, Hong Kong stocks rise on hopes geopolitical tensions will ease - marketscreener.com",
+        "pubDate": "Tue, 14 Apr 2026 04:33:20 GMT",
+        "source": "marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaTdMZTRQQ2tQRE5qSDV1a0NwYWxJeEl2cUgyZnBGZVFUc0I0RW5naWg0RlBuRjdHTHd4YVMyclhVMFhrU3FwbjlZRmtaOVpuUEVudWEtSTd6b3pZN1E0ekxMNWd2YnJhTHhLWGNISkE1YVd4NFo5Qk81MUYzRnRHU3U5bmttQ3Z2amprdGEwYUdHWk5KeDJ5R19pbkd2RDJqdlVtSndva0lZbFNtNzNFc3lBbEpwLXlRZmlwbVV3?oc=5"
+      }
+    ],
+    "China stocks": [
+      {
+        "title": "Morgan Stanley predicts these beaten-down Chinese stocks can rebound on easing Middle East tensions - CNBC",
+        "pubDate": "Sun, 12 Apr 2026 11:16:44 GMT",
+        "source": "CNBC",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEQ4Q0lfNFpIWDV0TU1ud1ptTXF2MHJhdTRsdEhZOW5tZ2xKa21VRzVwSFNEN2xrbmFUNDlqMzNsMlZtTkR0X0VjNUNpZFV4R2VvcmdBLTZZWDVNV0tkSVNDa1dCZDN5NmdJZ2lnMEk3dm02eHg4Ty0zQ2VVOU5ac1kySXc5Mnl5dHI0RlNnNlRUdFZvUDFNYU85aXMzRnZrNGlj?oc=5"
+      },
+      {
+        "title": "China’s Stocks, Bonds in Rare Sync as War Drives Haven Demand - Bloomberg",
+        "pubDate": "Mon, 13 Apr 2026 00:35:00 GMT",
+        "source": "Bloomberg",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMTEtRmtWeEhKWXZVZjJ4TGtQaTlUS1FCMzhBNHRKdldRLTZwSnhTNmFjVEZ6aThabzdmQnpId2FHM1FZVE1XWXNrNXBwZnZwZzRIMm1GaXU4UXBhUkdLbUZhWmtYdWxKZVpCV1Z3cklMTm95aFhWNFI2OGh6eXlPYmhKYkhIeTE4RWlkY1oxcUJ6bFdYclctd2xTMWdEa0tVTUlON2NPd2JYcHNka3B3MA?oc=5"
+      },
+      {
+        "title": "China Stocks Reclaim Key Levels: Shanghai Composite Above 4,000 - News and Statistics - IndexBox",
+        "pubDate": "Sat, 11 Apr 2026 03:01:00 GMT",
+        "source": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ1M2TmhWRGFNTDAwamdSLUZVTUlBZVQwY254U2dOUXFpbkVfMFY5bDN5MnNXeWkzbFRaWDVqUDNSZUdMR3N6NHRUcDFVMF9jQWdzcFcwOXNVMWs2UDdRMDR3cldzb0dIN0lpZ0c2SEtNUzhzNFZaVW1SbVVkT1p2LTNnN1ByREZZRzItMHlUYmFvQQ?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "China Stocks Mixed as Caution Prevails - TradingView — Track All Markets",
+        "pubDate": "Mon, 13 Apr 2026 02:38:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ0hQdUlFWDE2cVlxV2hPcHc4VVZOekF6VFFXR3JZbXQ3NXNSLWVCX2F2NUJ2NXJjc1g5WEFhNEJqWjlTcDlXdWNzTEdzU1IzN0V3bWdEX0oxbWtUU3JsTmcwWGFvVmtCT1k0WVloblZNckhMdzE4X0hqTldOSFZaQUlTc0tuZkgtVWw4YjE0VkJGSXc?oc=5"
+      },
+      {
+        "title": "Best Chinese Stocks To Buy And Watch: Track The Latest China Stock News - Investor's Business Daily",
+        "pubDate": "Fri, 10 Apr 2026 16:54:00 GMT",
+        "source": "Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9xb0Q2UnVEMWdJTlo4ZUd5dTUzQ3p2eUdxdlB1MlE5LUxsU1VkdFpKQ2F6alh6R1ZsLU9KbURjZWRkN2djRGVsRElrbDFxcW1JNkFHZkMyZU01cHR1Smp2ZU1CdTNuNFBLS0V6Uk9LUXZKWjRXLVZV?oc=5"
+      },
+      {
+        "title": "Chipotle and Yum China Shares Skyrocket, What You Need To Know - Yahoo Finance",
+        "pubDate": "Thu, 09 Apr 2026 01:17:00 GMT",
+        "source": "Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTkU5M1RkU2hQb1Njd1VZcUlaV2E4SDl5Y1Rla1pGQzl5NVN1QV8zYnZVWEx0aUhJTTNkRTViNUo3cjh4bkViZENhMkhwN2kxN0V5dXdTX3BjVk00RmlWSXIzV2x2NFVoWEJGaFdQa0lmYnozdDA2M1ZKUExHR2RiUUNobW9wV3JWdnlmTzRlbmpJS0N4SkhHdXhrSmtWcm5Qc1E?oc=5"
+      },
+      {
+        "title": "China Stocks Steady As Hormuz Blockade Jitters Linger - Finimize",
+        "pubDate": "Mon, 13 Apr 2026 08:32:19 GMT",
+        "source": "Finimize",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMlN2VnlpSXFaeEdXQThvZ29VOEc4aVVOV285d01qd2RYUnRRdExjQ01HRUVNLWtpa1ZDX3BmSmNMTkM3NTlMYlFoTW1xT3hOdmVXcHd0V2M2Y0RIaE52SXBsc0dMeGRNOTdDZ2tlOWxnZHVLUUFtU0c2SWF2dG0xSXR0ZGhwd2hiS0E?oc=5"
+      }
+    ],
+    "Hong Kong broker stocks": [
+      {
+        "title": "Moomoo Malaysia is First Licensed Broker in Malaysia to Offer Hong Kong Stock Options - Moomoo",
+        "pubDate": "Fri, 10 Apr 2026 07:00:00 GMT",
+        "source": "Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV1RxZ3JvRlRaZmtPb2JNVjRGUnpNNVJJQk5FRkZacTc1VEk1WjQtUXUxWXlEclhObnBqSUJyMldBcktVaUVEOVdWUm82Sy1SbnAzU1otZ1pjdFFvRWRXU09PV29ySjFfdnJsbnlfR1hKeHJ4RWhWSUJ4aFNSZVVDSVVTNEhPWGRaSmNMRnNPNFN3UFNkcTlMb2lvSUg?oc=5"
+      },
+      {
+        "title": "Hong Kong Stock Market Concept Tracker | Investment Pressure Points Continue to Ease, Brokerage Sector Bottom Gradually Consolidating (With Key Stocks) - 富途牛牛",
+        "pubDate": "Tue, 14 Apr 2026 00:52:38 GMT",
+        "source": "富途牛牛",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2V0V1JHblhvVnFUdUVzLVlHak9KRmszNVNEaEhsVzhqdjBwd1k3WDZlTXkwLW9DcVJYeUU4MEY3emZiajBycnl6RnEtbjVBbnM3b3JJZWR2MGN3QXlxTWhwdFQwYXA1UXA2cnprSkx4Q2NQdExxYVVBNzZhdTk2WjMxUEl6Xzg2ckYtSDh4ZkFNU2kwVUh2RUhxdnlPc2wyR3dQbG53VG9CekRIRGc2UVAyMnhFUQ?oc=5"
+      },
+      {
+        "title": "Yum China files annual report for 2025 with Hong Kong Stock Exchange - Investing.com",
+        "pubDate": "Wed, 08 Apr 2026 12:43:08 GMT",
+        "source": "Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeml3OXZ1M2RFTm1CWU0wVkFUR0ZsZEs3b3JDRks4Z21TaEpCbEo3c0o4QlRDNWJ1bkdZS1lPWU05b05hZTEtR2k2TkFpX2lEcGM3cFJfRVhuSS1qMmRYYUFZS05kTnVnSU05NFZER2lKMkNCYkp3LVRJbFJWWmJudm50TTdyRTJuOWZsX3c2c0JCdkx6N0doZFdmSVFRb3Y2MXhnd0Q5dl9Nb2ZjRjh4NS16MVlEdENJdjJUWXBzYzRXdw?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "Hong Kong Stock Slips on Rising Oil Prices - TradingView — Track All Markets",
+        "pubDate": "Mon, 13 Apr 2026 02:12:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHgxcGRPOGstS3p4MFVOcmJ4ZnpXZW92UWRoZ01uZE9OM2R1Y2Q0WU0yUEtXYXc0cmJuT3RpMmE3N2thd3ljelI4MmxJbHo5TnphMHdpUzg4OFFiX0VmT2RabWtEY3B4UlViZXRwR2lrYTZ0Nl9sbDZiUnEwOG13YmktV09SLWJHZTE2X1pEWHk3V045T1JRSQ?oc=5"
+      }
+    ],
+    "Hong Kong semiconductor stocks": [
+      {
+        "title": "Hong Kong Stock Market Midday Review: Hang Seng Index fell by 1.18%, with technology and financial sectors collectively sluggish, while semiconductor stocks bucked the trend and rose. - 富途牛牛",
+        "pubDate": "Mon, 13 Apr 2026 08:02:31 GMT",
+        "source": "富途牛牛",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWlpBNXpTTUxINndQeE1DY21SRmhIR1dsVU13OEJwMXo1Mkk3RWhoSlFidkNkSkZxSmdCS3RxSmdmZDBJWVBZRjdKekF6UGpjWkV3aTRNeG9rdV91UjRPWTVJeDM3LUw2d3VwbVI2RUdXcFkzMXpZTG9zYmgtMnhaa0RDU1BpQ2dMa190R2tGdGNwV21mZjNxSVNOcGtvZUU?oc=5"
+      },
+      {
+        "title": "Korea, Hong Kong Launch Joint Semiconductor Index Covering 30 Blue-Chip Stocks - Seoul Economic Daily",
+        "pubDate": "Mon, 13 Apr 2026 09:01:19 GMT",
+        "source": "Seoul Economic Daily",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRy1SLU5NRUFmRi1vZVpHb2VMeW16enh1MEVudldYal9QQWcwODNDdWVKVV9RTDBRME1RZ1U5eEZzVC02dW9WUXFkbjM3dk1EcHVUaVdVc1lheHBkMG15WHUtQ0t6ZG16ZGhDcHI0clRMREROVWhQcEVZMGtqR0FfSWlMbXU1ejM4Nk1JdjRjZnhXcXBaSlZ3T093Z2xfUENk?oc=5"
+      },
+      {
+        "title": "China stocks advance as ceasefire hopes lift Shanghai and Hong Kong benchmarks - South China Morning Post",
+        "pubDate": "Fri, 10 Apr 2026 02:32:16 GMT",
+        "source": "South China Morning Post",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU0FrYTBEci1XQ21iSVoyNHJyY0ZWdDR6WW4xTnZiel8tbERvTURmQTE5YjM1UWhGVDR0SHg4UUo2Y1lqbE9FdUduSDZSMFVremhpZ2RQRTJacFdaR3gyX1JUUGpKa2gtNVlQOU13SWV2aG1QaEdKZFRIek0xS1dMc2FfdzR6SFJoRzNobEhfY1hVS3hXQW5RZm1RUmFOV3U1TERvODNqSmhsRkx3THdfRU5HZ01Bd3RMWGs2bm5FU2otSjZVdHI3YlNDclXSAcwBQVVfeXFMUHFPazZfZkwzNGdkckF6VTcxMFl6ZjNHN19jRkFDVXkwRExtTVBjeUJBRXFRMUc0UVM3bWxWZzlJMmxXZ1NuRkxHVk96OEwtRDI0bXZ6UndzX3VNYTUzeGRjMGtkcm1yaURmNFJ2N0EwdDFyTHk5aWFwand4M09VRENlZTh5RTNlajQ1MjEzS3dJa1hJRUh2RXI2Yy1fRTJlTzZFTEhsQjE5emZQSnpEV3p6NFlMTkRabWphcElXaXV2YVdHLWE4b3lnMzVR?oc=5"
+      },
+      {
+        "title": "Hong Kong-listed chip stocks performed strongly, with Fourier rising over 16%. Institutions predict that the high prosperity of AI may lead to increased investment. - Moomoo",
+        "pubDate": "Tue, 14 Apr 2026 07:41:21 GMT",
+        "source": "Moomoo",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMVBDRjFESm9BWjFSVE02VWdMMldJRHJnOVg0ZWhHWjgwYnFubHc3WXpzWmFnV0lOOHUwQ2t1MncyNTd4UVdqMkxWTkhrX0MzbGtxOHZBNjltX1BfckJJSGY5Wk5GMGNJdWRnWXNIZkdDMFh4OHhKZXhTTm9SZjVybWVBekMwUmtRa2IyOF9UeVZUZGs4bEpNUzdWTnJtbVg3ZGJLNnpSVHBlZ2VENGc?oc=5"
+      },
+      {
+        "title": "Hong Kong Stocks Edge Higher - TradingView — Track All Markets",
+        "pubDate": "Fri, 10 Apr 2026 02:10:00 GMT",
+        "source": "TradingView — Track All Markets",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcklNb1Vud2RWa0Fmc19yWTM3ejY2R2xQQUVrdWhlV2szX0FOeXlpa0FVd1NMQy1nZGdjX0pCWTM4ZW9McGVhbERJbjgwV3ZWUnoydjZPWi00TXFOUDZRX3RNbnJCaS15QWF5ekVCYmVBTW1GRk9ZMDJUamhNQlJwOGZSdkswUQ?oc=5"
+      }
+    ]
+  },
+  "reddit": [
+    {
+      "subreddit": "stocks",
+      "items": [
+        {
+          "title": "Rate My Portfolio - r/Stocks Quarterly Thread March 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-03-01T10:00:44+00:00",
+          "link": ""
+        },
+        {
+          "title": "r/Stocks Daily Discussion Monday - Apr 13, 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-13T10:50:27+00:00",
+          "link": ""
+        },
+        {
+          "title": "The reason the market is going up is because most people don’t think this is going to matter in 5+ years. And no, that’s not irrational.",
+          "author": "/u/UsernameIWontRegret",
+          "updated": "2026-04-13T20:36:43+00:00",
+          "link": ""
+        },
+        {
+          "title": "Meta to overtake Google in Digital Ad Revenue for the first time",
+          "author": "/u/Not69Batman",
+          "updated": "2026-04-13T22:16:30+00:00",
+          "link": ""
+        },
+        {
+          "title": "Do you all believe now? The market doesn't move on news. The market moves and the Media assigns it a reason (news) after.",
+          "author": "/u/DjBass88",
+          "updated": "2026-04-13T14:53:09+00:00",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subreddit": "investing",
+      "items": [
+        {
+          "title": "Daily General Discussion and Advice Thread - April 14, 2026",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-14T08:00:16+00:00",
+          "link": ""
+        },
+        {
+          "title": "Investing and Trading Scam Reminder",
+          "author": "/u/AutoModerator",
+          "updated": "2026-04-01T12:01:46+00:00",
+          "link": ""
+        },
+        {
+          "title": "Is it me, or is the market just...ignoring the realities of the oil supply shock?",
+          "author": "/u/GailaMonster",
+          "updated": "2026-04-13T18:39:37+00:00",
+          "link": ""
+        },
+        {
+          "title": "Google could make 100 Billion on the SpaceX IPO",
+          "author": "/u/Fickle-Hovercraft-84",
+          "updated": "2026-04-14T00:18:52+00:00",
+          "link": ""
+        },
+        {
+          "title": "Thesis: Converging Spot and Futures Prices",
+          "author": "/u/Protagonist0012",
+          "updated": "2026-04-14T05:46:56+00:00",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "subreddit": "SecurityAnalysis",
+      "items": [
+        {
+          "title": "2025 Analysis Questions and Discussions Thread",
+          "author": "/u/Beren-",
+          "updated": "2025-01-16T10:11:22+00:00",
+          "link": ""
+        },
+        {
+          "title": "Q1 2026 Letters & Reports",
+          "author": "/u/Beren-",
+          "updated": "2026-04-13T14:16:37+00:00",
+          "link": ""
+        },
+        {
+          "title": "Are you invited to the house-warming party? Fannie Mae and Freddie Mac",
+          "author": "/u/investorinvestor",
+          "updated": "2026-04-14T04:43:10+00:00",
+          "link": ""
+        },
+        {
+          "title": "Credit Weekly: Foundation Cracks | JunkBondInvestor",
+          "author": "/u/MatricesRL",
+          "updated": "2026-04-14T01:07:02+00:00",
+          "link": ""
+        },
+        {
+          "title": "Howard Marks - What’s Going on in Private Credit?",
+          "author": "/u/Beren-",
+          "updated": "2026-04-13T14:13:16+00:00",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}
