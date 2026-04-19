@@ -1,6 +1,15 @@
 {
   "reports": [
     {
+      "date": "2026-04-17",
+      "title": "市場報告 2026-04-17",
+      "reportPath": "content/reports/2026-04-17.md",
+      "autoReportPath": "content/reports/2026-04-17.auto.v1_2.md",
+      "autoJsonPath": "content/reports/2026-04-17.auto.v1_2.json",
+      "posts": {},
+      "charts": {}
+    },
+    {
       "date": "2026-04-15",
       "title": "市場報告 2026-04-15",
       "reportPath": "content/reports/2026-04-15.md",

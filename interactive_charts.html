@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HK Market Interactive Charts</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+    }
+    .header {
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .header h1 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #58a6ff;
+    }
+    .header .subtitle {
+      font-size: 13px;
+      color: #8b949e;
+    }
+    .controls {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+    .controls label {
+      font-size: 13px;
+      color: #8b949e;
+    }
+    .controls select {
+      background: #21262d;
+      color: #e6edf3;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .controls select:hover { border-color: #58a6ff; }
+    .tab-bar {
+      display: flex;
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+      padding: 0 24px;
+      gap: 4px;
+      overflow-x: auto;
+    }
+    .tab {
+      padding: 10px 16px;
+      font-size: 13px;
+      color: #8b949e;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+    .tab:hover { color: #e6edf3; }
+    .tab.active {
+      color: #58a6ff;
+      border-bottom-color: #58a6ff;
+    }
+    .chart-container {
+      padding: 20px 24px;
+      display: none;
+    }
+    .chart-container.active { display: block; }
+    .chart-wrapper {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .chart-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #e6edf3;
+      margin-bottom: 12px;
+    }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .stat-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+    .stat-card .label {
+      font-size: 11px;
+      color: #8b949e;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    .stat-card .value {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .stat-card .value.positive { color: #3fb950; }
+    .stat-card .value.negative { color: #f85149; }
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: #8b949e;
+      font-size: 14px;
+    }
+    .loading::after {
+      content: '載入中...';
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    .error-msg {
+      background: #f8514922;
+      border: 1px solid #f85149;
+      border-radius: 8px;
+      padding: 16px;
+      color: #f85149;
+      font-size: 13px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 11px;
+      color: #484f58;
+      border-top: 1px solid #21262d;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>📊 HK Market Interactive Charts</h1>
+    <div class="subtitle" id="reportDate">—</div>
+  </div>
+  <div class="controls">
+    <label for="dateSelect">報告日期：</label>
+    <select id="dateSelect" onchange="loadReport()"></select>
+  </div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab active" onclick="showTab('overview')">總覽</div>
+  <div class="tab" onclick="showTab('sectors')">板塊表現</div>
+  <div class="tab" onclick="showTab('industries')">行業表現</div>
+  <div class="tab" onclick="showTab('gainers')">強勢股</div>
+  <div class="tab" onclick="showTab('losers')">弱勢股</div>
+  <div class="tab" onclick="showTab('turnover')">成交額</div>
+  <div class="tab" onclick="showTab('breadth')">市場廣度</div>
+</div>
+
+<div id="loading" class="loading"></div>
+<div id="errorBox" class="error-msg" style="display:none"></div>
+
+<!-- Overview Tab -->
+<div class="chart-container active" id="tab-overview">
+  <div class="stats-row" id="statsRow"></div>
+  <div class="chart-wrapper">
+    <div class="chart-title">📈 板塊回報分佈</div>
+    <div id="chartSectorBar" style="height:350px"></div>
+  </div>
+  <div class="chart-wrapper">
+    <div class="chart-title">🏆 行業回報分佈</div>
+    <div id="chartIndustryBar" style="height:350px"></div>
+  </div>
+</div>
+
+<!-- Sectors Tab -->
+<div class="chart-container" id="tab-sectors">
+  <div class="chart-wrapper">
+    <div class="chart-title">板塊平均回報（%）</div>
+    <div id="chartSectorFull" style="height:500px"></div>
+  </div>
+  <div class="chart-wrapper">
+    <div class="chart-title">板塊龍頭股票</div>
+    <div id="chartSectorLeaders" style="height:400px"></div>
+  </div>
+</div>
+
+<!-- Industries Tab -->
+<div class="chart-container" id="tab-industries">
+  <div class="chart-wrapper">
+    <div class="chart-title">行業平均回報（%）</div>
+    <div id="chartIndustryFull" style="height:500px"></div>
+  </div>
+</div>
+
+<!-- Gainers Tab -->
+<div class="chart-container" id="tab-gainers">
+  <div class="chart-wrapper">
+    <div class="chart-title">Top 12 強勢股</div>
+    <div id="chartGainers" style="height:400px"></div>
+  </div>
+</div>
+
+<!-- Losers Tab -->
+<div class="chart-container" id="tab-losers">
+  <div class="chart-wrapper">
+    <div class="chart-title">Top 12 弱勢股</div>
+    <div id="chartLosers" style="height:400px"></div>
+  </div>
+</div>
+
+<!-- Turnover Tab -->
+<div class="chart-container" id="tab-turnover">
+  <div class="chart-wrapper">
+    <div class="chart-title">成交額 Top 20</div>
+    <div id="chartTurnover" style="height:500px"></div>
+  </div>
+</div>
+
+<!-- Breadth Tab -->
+<div class="chart-container" id="tab-breadth">
+  <div class="chart-wrapper">
+    <div class="chart-title">市場廣度 — 上升/下跌/持平</div>
+    <div id="chartBreadth" style="height:300px"></div>
+  </div>
+  <div class="chart-wrapper">
+    <div class="chart-title">板塊成交額分佈</div>
+    <div id="chartSectorTurnover" style="height:400px"></div>
+  </div>
+</div>
+
+<div class="footer">
+  數據來源：市場報告 · 
+  <span id="footerNote"></span>
+</div>
+
+<script>
+const BASE = './content/reports';
+let currentData = null;
+let availableDates = [];
+
+// ── Init ──────────────────────────────────────────────────
+async function init() {
+  const select = document.getElementById('dateSelect');
+  // Discover available JSON files
+  // In production these would be enumerated from the server or a manifest
+  // For demo, we embed the list from what we know exists:
+  availableDates = ['2026-04-17','2026-04-15','2026-04-14','2026-04-13','2026-04-12'];
+  // In production this list should be generated server-side or from a manifest.
+  // For now, hardcoded based on what exists in content/reports/.
+  availableDates.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d;
+    opt.textContent = d;
+    select.appendChild(opt);
+  });
+  await loadReport();
+}
+
+// ── Load Report ────────────────────────────────────────────
+async function loadReport() {
+  const date = document.getElementById('dateSelect').value;
+  showLoading(true);
+  try {
+    const resp = await fetch(`${BASE}/${date}.auto.v1_2.json`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    currentData = await resp.json();
+    document.getElementById('reportDate').textContent =
+      `報告日期：${currentData.date}  |  ${date}`;
+    renderAll();
+    document.getElementById('footerNote').textContent =
+      `最後更新：${new Date().toLocaleString('zh-HK')}`;
+  } catch (e) {
+    showError(`載入失敗：${e.message}。請確認 ${date} 的報告已生成。`);
+  } finally {
+    showLoading(false);
+  }
+}
+
+// ── Show/Hide ─────────────────────────────────────────────
+function showTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.chart-container').forEach(c => c.classList.remove('active'));
+  document.querySelector(`.tab[onclick="showTab('${name}')"]`).classList.add('active');
+  document.getElementById(`tab-${name}`).classList.add('active');
+}
+
+function showLoading(on) {
+  document.getElementById('loading').style.display = on ? 'block' : 'none';
+}
+
+function showError(msg) {
+  const el = document.getElementById('errorBox');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+// ── Render All ─────────────────────────────────────────────
+function renderAll() {
+  if (!currentData) return;
+  renderOverview();
+  renderSectors();
+  renderIndustries();
+  renderGainers();
+  renderLosers();
+  renderTurnover();
+  renderBreadth();
+}
+
+// ── Shared plot style ─────────────────────────────────────
+const DARK_LAYOUT = {
+  paper_bgcolor: '#161b22',
+  plot_bgcolor: '#161b22',
+  font: { color: '#e6edf3', family: '-apple-system,BlinkMacSystemFont,sans-serif' },
+  margin: { t: 40, r: 20, b: 60, l: 70 },
+  modebar: { bgcolor: '#21262d', color: '#8b949e', activecolor: '#58a6ff' }
+};
+
+const COLORS = {
+  positive: '#3fb950',
+  negative: '#f85149',
+  neutral:  '#8b949e',
+  accent:   '#58a6ff',
+  barPos:   '#238636',
+  barNeg:   '#da3633',
+};
+
+// ── Overview ─────────────────────────────────────────────
+function renderOverview() {
+  const mkt = currentData.hk_market;
+  const summary = mkt.summary || {};
+  const breadth = mkt.daily_breadth || [];
+  const latestBreadth = breadth[breadth.length - 1] || {};
+
+  // Stats cards
+  const statsRow = document.getElementById('statsRow');
+  statsRow.innerHTML = `
+    <div class="stat-card">
+      <div class="label">上升</div>
+      <div class="value positive">${latestBreadth.advancers ?? '—'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">下跌</div>
+      <div class="value negative">${latestBreadth.decliners ?? '—'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">持平</div>
+      <div class="value">${latestBreadth.flat ?? '—'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">中位數回報</div>
+      <div class="value ${(latestBreadth.median_pct||0) >= 0 ? 'positive' : 'negative'}">
+        ${((latestBreadth.median_pct||0) >= 0 ? '+' : '')}${(latestBreadth.median_pct||0).toFixed(2)}%
+      </div>
+    </div>
+  `;
+
+  // Sector bar (top 8)
+  const sectors = (mkt.sector_groups || []).slice(0, 8);
+  Plotly.newPlot('chartSectorBar', [{
+    type: 'bar',
+    x: sectors.map(s => s.mean_return_pct),
+    y: sectors.map(s => s.group),
+    orientation: 'h',
+    marker: {
+      color: sectors.map(s => s.mean_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg)
+    },
+    text: sectors.map(s => `${(s.mean_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '平均回報 (%)', gridcolor: '#30363d', tickcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d', tickcolor: '#30363d' }
+  }, {responsive: true});
+
+  // Industry bar (top 8)
+  const industries = (mkt.industry_groups || []).slice(0, 8);
+  Plotly.newPlot('chartIndustryBar', [{
+    type: 'bar',
+    x: industries.map(s => s.mean_return_pct),
+    y: industries.map(s => s.group),
+    orientation: 'h',
+    marker: {
+      color: industries.map(s => s.mean_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg)
+    },
+    text: industries.map(s => `${(s.mean_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '平均回報 (%)', gridcolor: '#30363d', tickcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d', tickcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Sectors ──────────────────────────────────────────────
+function renderSectors() {
+  const sectors = mkt().sector_groups || [];
+  // Full sorted bar chart
+  const sorted = [...sectors].sort((a,b) => b.mean_return_pct - a.mean_return_pct);
+  Plotly.newPlot('chartSectorFull', [{
+    type: 'bar',
+    x: sorted.map(s => s.mean_return_pct),
+    y: sorted.map(s => `${s.group} (${s.stock_count})`),
+    orientation: 'h',
+    marker: { color: sorted.map(s => s.mean_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg) },
+    text: sorted.map(s => `${(s.mean_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '平均回報 (%)', gridcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+
+  // Leaders table as bar chart
+  const topLeaders = sorted.slice(0, 8);
+  Plotly.newPlot('chartSectorLeaders', [{
+    type: 'bar',
+    x: topLeaders.map(s => s.leader_return_pct),
+    y: topLeaders.map(s => `${s.leader_name || s.leader_symbol} (${s.group})`),
+    orientation: 'h',
+    marker: { color: topLeaders.map(s => s.leader_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg) },
+    text: topLeaders.map(s => `${s.leader_symbol} ${(s.leader_return_pct||0)>=0?'+':''}${(s.leader_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '龍頭回報 (%)', gridcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Industries ────────────────────────────────────────────
+function renderIndustries() {
+  const inds = mkt().industry_groups || [];
+  const sorted = [...inds].sort((a,b) => b.mean_return_pct - a.mean_return_pct);
+  Plotly.newPlot('chartIndustryFull', [{
+    type: 'bar',
+    x: sorted.map(s => s.mean_return_pct),
+    y: sorted.map(s => `${s.group} (${s.stock_count})`),
+    orientation: 'h',
+    marker: { color: sorted.map(s => s.mean_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg) },
+    text: sorted.map(s => `${(s.mean_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '平均回報 (%)', gridcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Gainers ───────────────────────────────────────────────
+function renderGainers() {
+  const gainers = (mkt().top_gainers_all || []).slice(0, 12);
+  Plotly.newPlot('chartGainers', [{
+    type: 'bar',
+    x: gainers.map(s => s.weekly_return_pct),
+    y: gainers.map(s => `${s.name || s.symbol}`),
+    orientation: 'h',
+    marker: { color: gainers.map(s => s.weekly_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg) },
+    text: gainers.map(s => `${s.symbol} ${(s.weekly_return_pct||0)>=0?'+':''}${(s.weekly_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '週回報 (%)', gridcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Losers ───────────────────────────────────────────────
+function renderLosers() {
+  const losers = (mkt().top_losers_all || []).slice(0, 12);
+  Plotly.newPlot('chartLosers', [{
+    type: 'bar',
+    x: losers.map(s => s.weekly_return_pct),
+    y: losers.map(s => `${s.name || s.symbol}`),
+    orientation: 'h',
+    marker: { color: losers.map(s => s.weekly_return_pct >= 0 ? COLORS.barPos : COLORS.barNeg) },
+    text: losers.map(s => `${s.symbol} ${(s.weekly_return_pct||0)>=0?'+':''}${(s.weekly_return_pct||0).toFixed(1)}%`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '週回報 (%)', gridcolor: '#30363d', zerolinecolor: '#484f58', zerolinewidth: 1 },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Turnover ─────────────────────────────────────────────
+function renderTurnover() {
+  const top = (mkt().top100_turnover || []).slice(0, 20);
+  Plotly.newPlot('chartTurnover', [{
+    type: 'bar',
+    x: top.map(s => s.weekly_amount_b),
+    y: top.map(s => `${s.name || s.symbol}`),
+    orientation: 'h',
+    marker: { color: COLORS.accent },
+    text: top.map(s => `HK$${(s.weekly_amount_b||0).toFixed(1)}B`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '成交額 (億港元)', gridcolor: '#30363d' },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+// ── Breadth ─────────────────────────────────────────────
+function renderBreadth() {
+  const breadth = mkt().daily_breadth || [];
+  if (breadth.length === 0) return;
+  const latest = breadth[breadth.length - 1];
+
+  Plotly.newPlot('chartBreadth', [{
+    type: 'pie',
+    values: [latest.advancers, latest.decliners, latest.flat],
+    labels: ['上升', '下跌', '持平'],
+    marker: { colors: [COLORS.positive, COLORS.negative, COLORS.neutral] },
+    textinfo: 'label+percent',
+    textfont: { color: '#e6edf3', size: 13 },
+    hole: 0.4,
+    pull: 0.05
+  }], {
+    ...DARK_LAYOUT,
+    showlegend: true,
+    legend: { font: { color: '#e6edf3' } }
+  }, {responsive: true});
+
+  // Sector turnover treemap-like bar
+  const sectors = (mkt().top_turnover_sectors || []).slice(0, 10);
+  Plotly.newPlot('chartSectorTurnover', [{
+    type: 'bar',
+    x: sectors.map(s => s.weekly_amount_b),
+    y: sectors.map(s => s.sector),
+    orientation: 'h',
+    marker: { color: COLORS.accent },
+    text: sectors.map(s => `HK$${(s.weekly_amount_b||0).toFixed(1)}B`),
+    textposition: 'outside',
+    textfont: { color: '#e6edf3', size: 11 }
+  }], {
+    ...DARK_LAYOUT,
+    xaxis: { title: '成交額 (億港元)', gridcolor: '#30363d' },
+    yaxis: { automargin: true, gridcolor: '#30363d' }
+  }, {responsive: true});
+}
+
+function mkt() { return currentData?.hk_market || {}; }
+
+init();
+</script>
+</body>
+</html>
