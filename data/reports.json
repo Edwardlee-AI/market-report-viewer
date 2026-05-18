@@ -226,6 +226,15 @@
       "autoJsonPath": null,
       "posts": {},
       "charts": {}
+    },
+    {
+      "date": "2026-05-18.auto.v1_2",
+      "title": "市場報告 2026-05-18.auto.v1_2",
+      "reportPath": "content/reports/2026-05-18.auto.v1_2.md",
+      "autoReportPath": null,
+      "autoJsonPath": null,
+      "posts": {},
+      "charts": {}
     }
   ]
 }
